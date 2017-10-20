@@ -1,0 +1,253 @@
+120-Incall: Fix the bug pop up dial-up failure through the bluetooth keyboard,http://diana.devops.letv.com/#/c/179914,tsp_dev_coop,mt6797_64_m/platform/packages/services/Telecomm,2016/8/10 2:39,wuliyong@le.com
+120-Incall: Incall : add Alerting state of outgoingCall,http://diana.devops.letv.com/#/c/242688,lafite_n_dev_leui,ruby/platform/packages/services/Telecomm,2016/11/18 3:39,wuliyong@le.com
+120-Incall: Incall : add Alerting state of outgoingCall(frameworks/base),http://diana.devops.letv.com/#/c/242620,lafite_n_dev_leui,ruby/platform/frameworks/base,2016/11/18 3:39,wuliyong@le.com
+120-Incall: Porting call recording feature,http://diana.devops.letv.com/#/c/243594,lafite_n_dev_leui,ruby/platform/frameworks/base,2016/11/23 5:33,wuliyong@le.com
+166-telephony : add interface for soft sim,http://diana.devops.letv.com/#/c/289169,coral_n_dev_bsp,ruby/platform/frameworks/base,2017/2/9 9:45,wuliyong@le.com
+166-telephony : add judgement for crossmapping when set default sub,http://diana.devops.letv.com/#/c/277342,zl1_stable_5.9_20161031,msm8996/platform/vendor/qcom/proprietary2,2016/12/23 6:16,wuliyong@le.com
+166-telephony : if auto search network succeed show Network search complete,http://diana.devops.letv.com/#/c/220224,belmont_dev_leui,mt6797_64_m/platform/packages/services/Telephony,2016/10/11 1:54,wuliyong@le.com
+166-telephony : NPE at com.android.phone.MSimCTSubscriptionStatus,http://diana.devops.letv.com/#/c/269637,le_x10_mp_shipping_20161105,ruby/platform/packages/services/Telephony,2016/12/8 9:52,wuliyong@le.com
+166-telephony : set default sms is ask first when insert new two sim cards,http://diana.devops.letv.com/#/c/275352,zl1_stable_020_20161117,msm8996/platform/vendor/qcom/proprietary2,2016/12/19 10:20,wuliyong@le.com
+166-telephony: add MMI to control 4G support for Indonesia,http://diana.devops.letv.com/#/c/279415,c1_dev_coop,ruby/platform/frameworks/opt/telephony,2016/12/28 6:18,wuliyong@le.com
+166-telephony: com.android.phone CRASH,http://diana.devops.letv.com/#/c/275488,mtk_stable_5.9_20161010,mt6797_64_m/platform/packages/apps/Settings,2016/12/20 2:20,wuliyong@le.com
+166-telephony: default subId settings in dualsim and network interface.,http://diana.devops.letv.com/#/c/304332,mtk_stable_5.9_20161010,mt6797_64_m/platform/packages/services/Telephony,2017/3/2 7:54,wuliyong@le.com
+901-System Service: Add permission for cta plus X7,http://diana.devops.letv.com/#/c/182962,coral_cert_cta_20160811,ruby/platform/packages/services/Telecomm,2016/8/12 6:48,wuliyong@le.com
+901-System Service: Add permission for cta plus X7,http://diana.devops.letv.com/#/c/182958,coral_cert_cta_20160811,ruby/platform/packages/services/Telephony,2016/8/12 6:48,wuliyong@le.com
+901-System Service: Add permission for cta plus X7,http://diana.devops.letv.com/#/c/170386,kitt_cert_cta_20160722,mt6797_64_m/platform/packages/services/Telecomm,2016/7/26 9:55,wuliyong@le.com
+901-System Service: Add permission for cta plus X7,http://diana.devops.letv.com/#/c/170397,kitt_cert_cta_20160722,mt6797_64_m/platform/packages/services/Telephony,2016/7/26 9:20,wuliyong@le.com
+Add log for speaker and voice recorder open automatically,http://diana.devops.letv.com/#/c/167037,ruby_dev_leui,ruby/platform/packages/apps/InCallUI,2016/7/21 7:28,wuliyong@le.com
+Add logic to remove dead calls in call list to avoid problems.,http://diana.devops.letv.com/#/c/195617,c1_mp_shipping_20160803_coop,ruby/platform/packages/services/Telecomm,2016/8/30 2:34,wuliyong@le.com
+Add logic to remove dead calls in call list to avoid problems.,http://diana.devops.letv.com/#/c/177804,c1_mp_shipping_20160414_coop,ruby/platform/packages/services/Telecomm,2016/8/17 9:15,wuliyong@le.com
+Add logic to remove dead calls in call list to avoid problems.,http://diana.devops.letv.com/#/c/177860,c1_dev_coop,ruby/platform/packages/services/Telecomm,2016/8/16 6:21,wuliyong@le.com
+Add logic to remove dead calls in call list to avoid problems.,http://diana.devops.letv.com/#/c/182529,ruby_dev_leui,ruby/platform/packages/services/Telecomm,2016/8/12 11:11,wuliyong@le.com
+Add logs for speaker and voice recorder open automatically,http://diana.devops.letv.com/#/c/167042,ruby_dev_leui,ruby/platform/packages/services/Telecomm,2016/7/21 7:28,wuliyong@le.com
+Add one new process for calling ui,http://diana.devops.letv.com/#/c/220514,leui_m,leui_lollipop/platform/packages/apps/Dialer,2016/10/24 9:25,wuliyong@le.com
+Add sim status checkng before showing LeNADataActivity,http://diana.devops.letv.com/#/c/231648,c1_dev_coop,ruby/platform/packages/services/Telephony,2016/10/20 9:20,wuliyong@le.com
+Add sim status checkng before showing LeNADataActivity,http://diana.devops.letv.com/#/c/231659,coral_pvt_shipping_20160926,ruby/platform/packages/services/Telephony,2016/10/20 7:58,wuliyong@le.com
+Add sim status checkng before showing LeNADataActivity,http://diana.devops.letv.com/#/c/231655,qcom_stable_5.9_20161010,ruby/platform/packages/services/Telephony,2016/10/20 7:52,wuliyong@le.com
+Add sim status checkng before showing LeNADataActivity,http://diana.devops.letv.com/#/c/224428,leui_us_stable_018_20160916,ruby/platform/packages/services/Telephony,2016/10/17 7:41,wuliyong@le.com
+Add sim status checkng before showing LeNADataActivity,http://diana.devops.letv.com/#/c/219396,ruby_dev_leui,ruby/platform/packages/services/Telephony,2016/10/14 10:21,wuliyong@le.com
+Bind incallservice when phone startup,http://diana.devops.letv.com/#/c/222664,ruby_dev_leui,ruby/platform/packages/services/Telecomm,2016/10/24 9:25,wuliyong@le.com
+Call: Set handover connection as connect more careful,http://diana.devops.letv.com/#/c/241068,lafite_n_dev_leui,ruby/platform/frameworks/opt/telephony,2016/11/7 5:15,wuliyong@le.com
+CallSetting: Enable AutoRedial in CarrierConfigManager,http://diana.devops.letv.com/#/c/239473,s2_n_dev_leui,ruby/platform/frameworks/base,2016/11/2 6:54,wuliyong@le.com
+Delay starting LeNADataActivity to wait for sim status update,http://diana.devops.letv.com/#/c/231691,c1_dev_coop,ruby/platform/frameworks/opt/telephony,2016/10/20 9:20,wuliyong@le.com
+Delay starting LeNADataActivity to wait for sim status update,http://diana.devops.letv.com/#/c/231706,coral_pvt_shipping_20160926,ruby/platform/frameworks/opt/telephony,2016/10/20 7:58,wuliyong@le.com
+Delay starting LeNADataActivity to wait for sim status update,http://diana.devops.letv.com/#/c/231701,ruby_stable_5.9_20161010,ruby/platform/frameworks/opt/telephony,2016/10/20 7:50,wuliyong@le.com
+Delay starting LeNADataActivity to wait for sim status update,http://diana.devops.letv.com/#/c/231702,s2_stable_5.9_20161010,ruby/platform/frameworks/opt/telephony,2016/10/20 7:48,wuliyong@le.com
+Delay starting LeNADataActivity to wait for sim status update,http://diana.devops.letv.com/#/c/224447,ruby_dev_leui,ruby/platform/frameworks/opt/telephony,2016/10/20 6:16,wuliyong@le.com
+Delay starting LeNADataActivity to wait for sim status update,http://diana.devops.letv.com/#/c/224454,le_x2_us_stable_018_20160916,ruby/platform/frameworks/opt/telephony,2016/10/17 7:40,wuliyong@le.com
+Delay starting LeNADataActivity to wait for sim status update,http://diana.devops.letv.com/#/c/224432,s2_us_stable_018_20160916,ruby/platform/frameworks/opt/telephony,2016/10/17 7:40,wuliyong@le.com
+Delay starting LeNADataActivity to wait for sim status update,http://diana.devops.letv.com/#/c/219424,lafite_dev_leui,ruby/platform/frameworks/opt/telephony,2016/10/14 10:20,wuliyong@le.com
+Dialer: Fix PhoneAccountHandle.mId diff in qcom&mtk,http://diana.devops.letv.com/#/c/242349,lafite_n_dev_leui,ruby/platform/frameworks/base,2016/11/4 9:00,wuliyong@le.com
+Disconnect call which dropped during poll when Phone dispose,http://diana.devops.letv.com/#/c/218611,belmont_stable_5.8_20160815,mt6797_64_m/platform/frameworks/opt/telephony,2016/9/30 9:57,wuliyong@le.com
+Disconnect call which dropped during poll when Phone dispose,http://diana.devops.letv.com/#/c/198192,tsp_dev_coop,mt6797_64_m/platform/frameworks/opt/telephony,2016/9/26 10:02,wuliyong@le.com
+Disconnect call which dropped during poll when Phone dispose,http://diana.devops.letv.com/#/c/202570,belmont_dev_leui,mt6797_64_m/platform/frameworks/opt/telephony,2016/9/8 7:04,wuliyong@le.com
+Framework:Check SRVCC state before dialing,http://diana.devops.letv.com/#/c/242678,lafite_n_dev_leui,ruby/platform/frameworks/opt/telephony,2016/11/7 9:32,wuliyong@le.com
+Framework:Telephony:update ecc match rule,http://diana.devops.letv.com/#/c/246876,lafite_n_dev_leui,ruby/platform/frameworks/base,2016/11/14 2:33,wuliyong@le.com
+Ignore 4636 when 4g is not support for Indonesia,http://diana.devops.letv.com/#/c/279860,c1_dev_coop,ruby/platform/packages/apps/Settings,2016/12/28 6:17,wuliyong@le.com
+Ims: Pending later conference request when one is ongoing,http://diana.devops.letv.com/#/c/207469,zl1_mp_shipping_20160713,msm8996/platform/vendor/qcom/proprietary2,2016/9/27 3:02,wuliyong@le.com
+Ims: Pending later conference request when one is ongoing,http://diana.devops.letv.com/#/c/207471,zl1_os_mp_shipping_20160913,msm8996/platform/vendor/qcom/proprietary2,2016/9/27 3:02,wuliyong@le.com
+Ims: Pending later conference request when one is ongoing,http://diana.devops.letv.com/#/c/186084,le_x2_stable_5.8_20160815,msm8996/platform/vendor/qcom/proprietary2,2016/8/17 11:40,wuliyong@le.com
+Ims: Pending later conference request when one is ongoing,http://diana.devops.letv.com/#/c/186045,ruby_la2.0_dev_bsp,msm8996/platform/vendor/qcom/proprietary2,2016/8/17 11:39,wuliyong@le.com
+Ims: Pending later conference request when one is ongoing,http://diana.devops.letv.com/#/c/168132,ruby_dev_bsp,msm8996/platform/vendor/qcom/proprietary2,2016/8/17 11:39,wuliyong@le.com
+Ims: Pending later conference request when one is ongoing,http://diana.devops.letv.com/#/c/163485,c1_dev_bsp,lafite/platform/vendor/qcom/proprietary,2016/7/21 12:16,wuliyong@le.com
+Ims: Pending later conference request when one is ongoing,http://diana.devops.letv.com/#/c/165786,lafite_dev_bsp,lafite/platform/vendor/qcom/proprietary,2016/7/21 10:39,wuliyong@le.com
+InCall: Adjust CDMA vibrate action in auto recording mode,http://diana.devops.letv.com/#/c/244559,lafite_n_dev_leui,ruby/platform/frameworks/base,2016/11/10 11:17,wuliyong@le.com
+InCall: Enable some log,http://diana.devops.letv.com/#/c/244172,lafite_n_dev_leui,ruby/platform/frameworks/base,2016/11/9 2:06,wuliyong@le.com
+InCall: Fix display issue during ringing,http://diana.devops.letv.com/#/c/181125,belmont_dev_leui,mt6797_64_m/platform/packages/apps/InCallUI,2016/8/10 2:34,wuliyong@le.com
+Incall: Improvement MO & hang up call performance,http://diana.devops.letv.com/#/c/197902,zl1_mp_shipping_20160713,ruby/platform/packages/services/Telephony,2016/9/1 8:49,wuliyong@le.com
+Incall: Improvement MO & hang up call performance,http://diana.devops.letv.com/#/c/166831,ruby_dev_leui,ruby/platform/packages/services/Telephony,2016/7/27 6:38,wuliyong@le.com
+Incall: Porting auto-redial in framework/base,http://diana.devops.letv.com/#/c/243289,lafite_n_dev_leui,ruby/platform/frameworks/base,2016/11/7 12:06,wuliyong@le.com
+Incall: Porting Incoming call ignorance function,http://diana.devops.letv.com/#/c/243966,lafite_n_dev_leui,ruby/platform/packages/services/Telecomm,2016/11/18 3:37,wuliyong@le.com
+Incall: Porting Incoming call ignorance function,http://diana.devops.letv.com/#/c/243872,lafite_n_dev_leui,ruby/platform/frameworks/base,2016/11/18 3:37,wuliyong@le.com
+Incall: Porting statusbarNotifier to N release,http://diana.devops.letv.com/#/c/241070,lafite_n_dev_leui,ruby/platform/frameworks/opt/telephony,2016/11/7 10:09,wuliyong@le.com
+Incall: Porting yellow page to N release,http://diana.devops.letv.com/#/c/239556,s2_n_dev_leui,ruby/platform/frameworks/base,2016/11/2 6:54,wuliyong@le.com
+Incall: Porting yellow page to N release - II,http://diana.devops.letv.com/#/c/243028,lafite_n_dev_leui,ruby/platform/frameworks/base,2016/11/7 10:14,wuliyong@le.com
+InCallUI: Fix issue for no call notification in statusbar,http://diana.devops.letv.com/#/c/174921,leui_stable_017_20160623,ruby/platform/packages/apps/InCallUI,2016/8/2 3:34,wuliyong@le.com
+InCallUI: Fix issue for no call notification in statusbar,http://diana.devops.letv.com/#/c/171610,tsp_dev_leui,mt6797_64_m/platform/packages/apps/InCallUI,2016/7/28 10:02,wuliyong@le.com
+InCallUI: Fix issue for no call notification in statusbar,http://diana.devops.letv.com/#/c/171605,belmont_dev_leui,mt6797_64_m/platform/packages/apps/InCallUI,2016/7/28 10:02,wuliyong@le.com
+InCallUI: Fix issue for no call notification in statusbar,http://diana.devops.letv.com/#/c/160304,ruby_dev_leui,ruby/platform/packages/apps/InCallUI,2016/7/13 7:43,wuliyong@le.com
+InCallUI: improve UI display performance for MO call,http://diana.devops.letv.com/#/c/185784,ruby_dev_leui,ruby/platform/packages/apps/InCallUI,2016/9/27 1:59,wuliyong@le.com
+InCallUI: Not do applicaiton init for incallui process,http://diana.devops.letv.com/#/c/236414,leui_m,leui_lollipop/platform/packages/apps/Dialer,2016/11/2 6:39,wuliyong@le.com
+InCallUI: Not register sensor when bind incallservice,http://diana.devops.letv.com/#/c/236769,ruby_dev_leui,ruby/platform/packages/apps/InCallUI,2016/10/27 10:27,wuliyong@le.com
+InCallUI: seach contact info again when call number changed,http://diana.devops.letv.com/#/c/210125,zl1_mp_shipping_20160713,ruby/platform/packages/apps/InCallUI,2016/9/26 10:00,wuliyong@le.com
+InCallUI: seach contact info again when call number changed,http://diana.devops.letv.com/#/c/210742,c1_dev_coop,ruby/platform/packages/apps/InCallUI,2016/9/20 10:30,wuliyong@le.com
+InCallUI: seach contact info again when call number changed,http://diana.devops.letv.com/#/c/209854,belmont_dev_leui,mt6797_64_m/platform/packages/apps/InCallUI,2016/9/20 7:19,wuliyong@le.com
+InCallUI: seach contact info again when call number changed,http://diana.devops.letv.com/#/c/209932,tsp_dev_leui,mt6797_64_m/platform/packages/apps/InCallUI,2016/9/20 7:17,wuliyong@le.com
+InCallUI: seach contact info again when call number changed,http://diana.devops.letv.com/#/c/209825,leui_stable_5.8_20160815,ruby/platform/packages/apps/InCallUI,2016/9/19 11:44,wuliyong@le.com
+InCallUI: seach contact info again when call number changed,http://diana.devops.letv.com/#/c/209826,zl1_os_mp_shipping_20160913,ruby/platform/packages/apps/InCallUI,2016/9/19 11:43,wuliyong@le.com
+InCallUI: seach contact info again when call number changed,http://diana.devops.letv.com/#/c/209935,belmont_stable_5.8_20160815,mt6797_64_m/platform/packages/apps/InCallUI,2016/9/19 11:42,wuliyong@le.com
+InCallUI: seach contact info again when call number changed,http://diana.devops.letv.com/#/c/197656,ruby_dev_leui,ruby/platform/packages/apps/InCallUI,2016/9/9 7:54,wuliyong@le.com
+LetvRoaming: Record elapse time to check if boot completed,http://diana.devops.letv.com/#/c/306933,leui_stable_5.9_20161010,letv/platform/vendor/letv/packages/LetvRoaming,2017/3/8 7:36,wuliyong@le.com
+LetvRoaming: Record elapse time to check if boot completed,http://diana.devops.letv.com/#/c/303385,leui,letv/platform/vendor/letv/packages/LetvRoaming,2017/3/6 8:11,wuliyong@le.com
+Move so library build out from TelephoyProvider,http://diana.devops.letv.com/#/c/253771,lafite_n_dev_leui,ruby/platform/packages/providers/TelephonyProvider,2016/11/18 1:40,wuliyong@le.com
+Move so library build out from TelephoyProvider,http://diana.devops.letv.com/#/c/253769,leui_n,leui_lollipop/platform/packages/providers/LetvMmsProvider,2016/11/18 1:40,wuliyong@le.com
+MSM8996: X2: Telephony: add for UI dual sim config,http://diana.devops.letv.com/#/c/277345,ruby_stable_5.9_20161010,ruby/platform/frameworks/opt/telephony,2016/12/23 6:10,wuliyong@le.com
+"Revert 166-telephony : add leui sim colors""",http://diana.devops.letv.com/#/c/247405,leui_n,leui_lollipop/platform/vendor/letv/frameworks,2016/11/11 11:00,wuliyong@le.com
+"Revert 166-telephony : add leui sim colors""",http://diana.devops.letv.com/#/c/247406,lafite_n_dev_leui,ruby/platform/frameworks/opt/telephony,2016/11/11 11:00,wuliyong@le.com
+"Revert BSP: System: ALPS02958244(For_letv6797_6c_x7_m_alps-mp-m0.mp9-V1.70_P249)""",http://diana.devops.letv.com/#/c/231646,belmont_dev_leui,mt6797_64_m/platform/frameworks/base,2016/10/19 11:45,wuliyong@le.com
+"Revert BSP: System: ALPS03007601(For_letv6797_6c_x7_m_alps-mp-m0.mp9-V1.70_P286)""",http://diana.devops.letv.com/#/c/244216,belmont_dev_leui,mt6797_64_m/platform/frameworks/opt/telephony,2016/11/8 10:19,wuliyong@le.com
+"Revert Dual_SIM_UI: if has softSim card  set default data to softSim card""",http://diana.devops.letv.com/#/c/320869,s2_stable_5.9_20161010,lafite/platform/vendor/qcom/proprietary,2017/4/13 11:28,wuliyong@le.com
+"Revert InCallUI: improve UI display performance for MO call""",http://diana.devops.letv.com/#/c/221916,qcom_stable_5.9_20161010,ruby/platform/packages/apps/InCallUI,2016/10/12 8:52,wuliyong@le.com
+"Revert Revert ""Telephony: save phone account only when one sub actived""",http://diana.devops.letv.com/#/c/304408,kitt_stable_5.9_20161010,mt6797_64_m/platform/frameworks/base,2017/3/2 7:53,wuliyong@le.com
+"Revert Telecom: Fix issue for phone restart when MO call""",http://diana.devops.letv.com/#/c/178232,ruby_dev_leui,ruby/platform/packages/services/Telecomm,2016/8/8 9:52,wuliyong@le.com
+"Revert Telecom: improve UI display performance for MO call""",http://diana.devops.letv.com/#/c/221945,qcom_stable_5.9_20161010,ruby/platform/packages/services/Telecomm,2016/10/12 8:52,wuliyong@le.com
+"Revert Telecom: Remove the notification about headset plugin in""",http://diana.devops.letv.com/#/c/295781,lafite_n_dev_leui,ruby/platform/packages/services/Telecomm,2017/2/13 7:25,wuliyong@le.com
+"Revert Telephony: data sub can not be updated after data sub switched""",http://diana.devops.letv.com/#/c/306911,lafite_n_dev_leui,ruby/platform/packages/services/Telephony,2017/3/8 7:08,wuliyong@le.com
+"Revert Telephony: fix build error for 2710 rebase""",http://diana.devops.letv.com/#/c/290384,s2_leui_rebase_r2710,ruby/platform/packages/services/Telephony,2017/1/19 7:01,wuliyong@le.com
+"Revert Telephony: save phone account only when one sub actived""",http://diana.devops.letv.com/#/c/291700,kitt_stable_5.9_20161010,mt6797_64_m/platform/frameworks/base,2017/1/22 9:20,wuliyong@le.com
+Telecom: add DisconnectCause.TIME_OUT for auto redial,http://diana.devops.letv.com/#/c/244657,lafite_n_dev_leui,ruby/platform/frameworks/base,2016/11/10 11:17,wuliyong@le.com
+Telecom: Add lock for some outside calling to avoid thread sync problem,http://diana.devops.letv.com/#/c/217878,belmont_stable_5.8_20160815,mt6797_64_m/platform/packages/services/Telecomm,2016/9/29 12:19,wuliyong@le.com
+Telecom: Add lock for some outside calling to avoid thread sync problem,http://diana.devops.letv.com/#/c/217754,leui_stable_5.8_20160815,ruby/platform/packages/services/Telecomm,2016/9/29 12:19,wuliyong@le.com
+Telecom: Add lock for some outside calling to avoid thread sync problem,http://diana.devops.letv.com/#/c/217828,belmont_dev_leui,mt6797_64_m/platform/packages/services/Telecomm,2016/9/29 10:47,wuliyong@le.com
+Telecom: Add lock for some outside calling to avoid thread sync problem,http://diana.devops.letv.com/#/c/191526,ruby_dev_leui,ruby/platform/packages/services/Telecomm,2016/9/21 2:49,wuliyong@le.com
+Telecom: Add the implemention of call recording aidl interfaces,http://diana.devops.letv.com/#/c/243722,lafite_n_dev_leui,ruby/platform/packages/services/Telecomm,2016/11/23 5:33,wuliyong@le.com
+Telecom: Fix issue for phone restart when MO call,http://diana.devops.letv.com/#/c/204122,belmont_stable_5.8_20160815,mt6797_64_m/platform/packages/services/Telecomm,2016/9/9 2:42,wuliyong@le.com
+Telecom: Fix issue for phone restart when MO call,http://diana.devops.letv.com/#/c/204073,belmont_dev_leui,mt6797_64_m/platform/packages/services/Telecomm,2016/9/9 2:41,wuliyong@le.com
+Telecom: Fix issue for phone restart when MO call,http://diana.devops.letv.com/#/c/204121,tsp_dev_coop,mt6797_64_m/platform/packages/services/Telecomm,2016/9/9 2:41,wuliyong@le.com
+Telecom: Fix issue for phone restart when MO call,http://diana.devops.letv.com/#/c/197907,zl1_mp_shipping_20160713,ruby/platform/packages/services/Telecomm,2016/9/1 8:49,wuliyong@le.com
+Telecom: Fix issue for phone restart when MO call,http://diana.devops.letv.com/#/c/185653,leui_stable_5.8_20160815,ruby/platform/packages/services/Telecomm,2016/8/18 3:47,wuliyong@le.com
+Telecom: Fix issue for phone restart when MO call,http://diana.devops.letv.com/#/c/178205,ruby_dev_leui,ruby/platform/packages/services/Telecomm,2016/8/8 9:53,wuliyong@le.com
+Telecom: Fix issue for phone restart when MO call,http://diana.devops.letv.com/#/c/170690,ruby_dev_leui,ruby/platform/packages/services/Telecomm,2016/8/2 7:22,wuliyong@le.com
+Telecom: Fix multi thread sync problems.,http://diana.devops.letv.com/#/c/197909,zl1_mp_shipping_20160713,ruby/platform/packages/services/Telecomm,2016/9/1 8:48,wuliyong@le.com
+Telecom: Fix multi thread sync problems.,http://diana.devops.letv.com/#/c/193054,belmont_stable_5.8_20160815,mt6797_64_m/platform/packages/services/Telecomm,2016/8/26 8:01,wuliyong@le.com
+Telecom: Fix multi thread sync problems.,http://diana.devops.letv.com/#/c/193055,kitt_mp_20160815,mt6797_64_m/platform/packages/services/Telecomm,2016/8/26 8:01,wuliyong@le.com
+Telecom: Fix multi thread sync problems.,http://diana.devops.letv.com/#/c/193061,leui_stable_5.8_20160815,ruby/platform/packages/services/Telecomm,2016/8/26 8:01,wuliyong@le.com
+Telecom: Fix multi thread sync problems.,http://diana.devops.letv.com/#/c/193058,ruby_dev_leui,ruby/platform/packages/services/Telecomm,2016/8/26 6:48,wuliyong@le.com
+Telecom: Fix multi thread sync problems.,http://diana.devops.letv.com/#/c/189356,belmont_dev_leui,mt6797_64_m/platform/packages/services/Telecomm,2016/8/24 2:55,wuliyong@le.com
+Telecom: improve UI display performance for MO call,http://diana.devops.letv.com/#/c/185793,ruby_dev_leui,ruby/platform/packages/services/Telecomm,2016/9/27 1:59,wuliyong@le.com
+Telecom: Notify result in main looper for reponse by sms text,http://diana.devops.letv.com/#/c/197908,zl1_mp_shipping_20160713,ruby/platform/packages/services/Telecomm,2016/9/1 8:49,wuliyong@le.com
+Telecom: Notify result in main looper for reponse by sms text,http://diana.devops.letv.com/#/c/191541,tsp_dev_coop,mt6797_64_m/platform/packages/services/Telecomm,2016/8/25 3:39,wuliyong@le.com
+Telecom: Notify result in main looper for reponse by sms text,http://diana.devops.letv.com/#/c/191552,ruby_dev_leui,ruby/platform/packages/services/Telecomm,2016/8/25 3:38,wuliyong@le.com
+Telecom: Notify result in main looper for reponse by sms text,http://diana.devops.letv.com/#/c/191544,belmont_stable_5.8_20160815,mt6797_64_m/platform/packages/services/Telecomm,2016/8/24 11:59,wuliyong@le.com
+Telecom: Notify result in main looper for reponse by sms text,http://diana.devops.letv.com/#/c/191554,leui_stable_5.8_20160815,ruby/platform/packages/services/Telecomm,2016/8/24 11:58,wuliyong@le.com
+Telecom: Notify result in main looper for reponse by sms text,http://diana.devops.letv.com/#/c/187639,kitt_mp_20160815,mt6797_64_m/platform/packages/services/Telecomm,2016/8/19 7:26,wuliyong@le.com
+Telecom: Notify result in main looper for reponse by sms text,http://diana.devops.letv.com/#/c/183411,belmont_dev_leui,mt6797_64_m/platform/packages/services/Telecomm,2016/8/17 6:28,wuliyong@le.com
+"Telecom: Pick 118"" from Emergency number list""",http://diana.devops.letv.com/#/c/239815,s2_n_dev_leui,ruby/platform/frameworks/base,2016/11/2 6:54,wuliyong@le.com
+Telecom: Porting auto-redial,http://diana.devops.letv.com/#/c/243624,lafite_n_dev_leui,ruby/platform/packages/services/Telecomm,2016/11/8 5:15,wuliyong@le.com
+Telecom: X6 P323 patch,http://diana.devops.letv.com/#/c/323552,mtk_stable_5.9_20161010,mt6797_64_m/platform/packages/services/Telecomm,2017/4/24 5:55,wuliyong@le.com
+Telecom: X6 P323 patch,http://diana.devops.letv.com/#/c/323174,belmont_dev_leui,mt6797_64_m/platform/packages/services/Telecomm,2017/4/21 9:11,wuliyong@le.com
+Telephony: Add catch for local log exception,http://diana.devops.letv.com/#/c/264705,ruby_stable_5.9_20161010,ruby/platform/frameworks/opt/telephony,2016/12/1 7:37,wuliyong@le.com
+Telephony: Add catch for local log exception,http://diana.devops.letv.com/#/c/264700,ruby_dev_leui,ruby/platform/frameworks/opt/telephony,2016/12/1 2:15,wuliyong@le.com
+Telephony: Add catch for local log exception,http://diana.devops.letv.com/#/c/264701,mtk_stable_5.9_20161010,mt6797_64_m/platform/frameworks/opt/telephony,2016/12/1 2:15,wuliyong@le.com
+Telephony: Add catch for local log exception,http://diana.devops.letv.com/#/c/258472,belmont_dev_leui,mt6797_64_m/platform/frameworks/opt/telephony,2016/11/24 7:40,wuliyong@le.com
+Telephony: add interface in SubscriptionInfo to update country iso,http://diana.devops.letv.com/#/c/301974,kitt_stable_5.9_20161010,mt6797_64_m/platform/frameworks/base,2017/2/24 8:56,wuliyong@le.com
+Telephony: add interface in SubscriptionInfo to update country iso,http://diana.devops.letv.com/#/c/301973,belmont_stable_5.9_20161010,mt6797_64_m/platform/frameworks/base,2017/2/24 8:56,wuliyong@le.com
+Telephony: add interface in SubscriptionInfo to update country iso,http://diana.devops.letv.com/#/c/298707,kitt_dev_leui,mt6797_64_m/platform/frameworks/base,2017/2/23 3:28,wuliyong@le.com
+Telephony: add interface in SubscriptionInfo to update country iso,http://diana.devops.letv.com/#/c/298568,belmont_dev_leui,mt6797_64_m/platform/frameworks/base,2017/2/23 3:28,wuliyong@le.com
+Telephony: Add missing file for sim selection,http://diana.devops.letv.com/#/c/278355,mtk_stable_5.9_20161010,mt6797_64_m/platform/packages/services/Telephony,2016/12/26 7:24,wuliyong@le.com
+Telephony: Add missing file for sim selection,http://diana.devops.letv.com/#/c/268082,belmont_dev_leui,mt6797_64_m/platform/packages/services/Telephony,2016/12/19 10:48,wuliyong@le.com
+Telephony: Add progress dialog for sim active/deactive,http://diana.devops.letv.com/#/c/309925,ruby_dev_leui,ruby/platform/packages/apps/Settings,2017/3/31 6:17,wuliyong@le.com
+Telephony: Add progress dialog for sim active/deactive,http://diana.devops.letv.com/#/c/309568,belmont_dev_leui,mt6797_64_m/platform/packages/apps/Settings,2017/3/15 11:32,wuliyong@le.com
+Telephony: change interfaces according to code improving,http://diana.devops.letv.com/#/c/307537,lafite_n_dev_leui,ruby/platform/packages/services/Telephony,2017/3/14 6:36,wuliyong@le.com
+Telephony: Close wfc feature default,http://diana.devops.letv.com/#/c/307094,lafite_n_dev_bsp,lafite/platform/vendor/qcom/proprietary,2017/3/10 2:34,wuliyong@le.com
+Telephony: Close wfc feature default,http://diana.devops.letv.com/#/c/306951,coral_n_dev_bsp,msm8996/platform/vendor/qcom/proprietary2,2017/3/10 2:33,wuliyong@le.com
+Telephony: data sub can not be updated after data sub switched,http://diana.devops.letv.com/#/c/306908,lafite_n_dev_leui,ruby/platform/packages/services/Telephony,2017/3/8 7:06,wuliyong@le.com
+Telephony: default sim settings,http://diana.devops.letv.com/#/c/285877,lafite_n_dev_leui,ruby/platform/packages/services/Telephony,2017/2/9 10:00,wuliyong@le.com
+Telephony: default sim settings,http://diana.devops.letv.com/#/c/289565,lafite_n_dev_bsp,lafite/platform/vendor/qcom/proprietary,2017/2/9 9:46,wuliyong@le.com
+Telephony: default sim settings,http://diana.devops.letv.com/#/c/287896,coral_n_dev_bsp,msm8996/platform/vendor/qcom/proprietary2,2017/2/9 9:45,wuliyong@le.com
+Telephony: Emergency disconnect cause handling,http://diana.devops.letv.com/#/c/241553,lafite_n_dev_leui,ruby/platform/frameworks/opt/telephony,2016/11/7 5:10,wuliyong@le.com
+Telephony: Fix build error for missing import.,http://diana.devops.letv.com/#/c/280066,c1_dev_coop,ruby/platform/packages/services/Telephony,2016/12/28 7:38,wuliyong@le.com
+Telephony: Fix call forward notification can not disappear,http://diana.devops.letv.com/#/c/241848,lafite_n_dev_leui,ruby/platform/frameworks/opt/telephony,2016/11/7 10:11,wuliyong@le.com
+Telephony: Fix default phone account handle deserialization,http://diana.devops.letv.com/#/c/306238,lafite_n_dev_leui,ruby/platform/packages/services/Telecomm,2017/3/8 8:46,wuliyong@le.com
+Telephony: Fix default voice sim  issue when one sim disabled,http://diana.devops.letv.com/#/c/313193,qcom_stable_5.9_20161010,ruby/platform/packages/services/Telephony,2017/4/6 1:56,wuliyong@le.com
+Telephony: Fix default voice sim  issue when one sim disabled,http://diana.devops.letv.com/#/c/281928,ruby_dev_leui,ruby/platform/packages/services/Telephony,2017/2/6 7:00,wuliyong@le.com
+Telephony: Fix issue for build error,http://diana.devops.letv.com/#/c/309409,lafite_n_dev_leui,ruby/platform/packages/services/Telephony,2017/3/14 8:33,wuliyong@le.com
+Telephony: Fix issue for code exception in telephony manager interface,http://diana.devops.letv.com/#/c/332042,lafite_n_dev_leui,ruby/platform/packages/services/Telephony,2017/5/31 3:29,wuliyong@le.com
+Telephony: Fix issue for code exception in telephony manager interface,http://diana.devops.letv.com/#/c/332029,mtk_stable_5.9_20161010,mt6797_64_m/platform/packages/services/Telephony,2017/5/31 3:27,wuliyong@le.com
+Telephony: Fix issue for code exception in telephony manager interface,http://diana.devops.letv.com/#/c/332041,qcom_stable_5.9_20161010,ruby/platform/packages/services/Telephony,2017/5/31 3:26,wuliyong@le.com
+Telephony: Fix issue for code exception in telephony manager interface,http://diana.devops.letv.com/#/c/332040,ruby_dev_leui,ruby/platform/packages/services/Telephony,2017/5/31 3:26,wuliyong@le.com
+Telephony: Fix issue for code exception in telephony manager interface,http://diana.devops.letv.com/#/c/319592,belmont_dev_leui,mt6797_64_m/platform/packages/services/Telephony,2017/4/11 7:10,wuliyong@le.com
+Telephony: Fix issue for default data not updated after data sub switched,http://diana.devops.letv.com/#/c/306912,lafite_n_dev_leui,ruby/platform/packages/services/Telephony,2017/3/8 7:28,wuliyong@le.com
+Telephony: Fix issue for default sim for voice,http://diana.devops.letv.com/#/c/282339,mtk_stable_5.9_20161010,mt6797_64_m/platform/packages/services/Telephony,2017/1/3 5:53,wuliyong@le.com
+Telephony: Fix issue for default sim for voice,http://diana.devops.letv.com/#/c/272466,belmont_dev_leui,mt6797_64_m/platform/packages/services/Telephony,2016/12/19 10:49,wuliyong@le.com
+Telephony: fix issue for default sim setting for voice,http://diana.devops.letv.com/#/c/282273,belmont_stable_5.9_20161010,mt6797_64_m/platform/frameworks/base,2017/1/3 3:45,wuliyong@le.com
+Telephony: fix issue for default sim setting for voice,http://diana.devops.letv.com/#/c/272467,belmont_dev_leui,mt6797_64_m/platform/frameworks/base,2016/12/19 10:50,wuliyong@le.com
+Telephony: fix issue for default sim settings,http://diana.devops.letv.com/#/c/290936,kitt_os_mp_shipping_20161031,mt6797_64_m/platform/frameworks/opt/telephony,2017/1/20 7:27,wuliyong@le.com
+Telephony: fix issue for default sim settings,http://diana.devops.letv.com/#/c/281605,mtk_stable_5.9_20161010,mt6797_64_m/platform/frameworks/opt/telephony,2016/12/30 2:36,wuliyong@le.com
+Telephony: fix issue for default sim settings,http://diana.devops.letv.com/#/c/271991,belmont_dev_leui,mt6797_64_m/platform/frameworks/opt/telephony,2016/12/19 10:49,wuliyong@le.com
+Telephony: Fix issue for memory leank in dual sim UI,http://diana.devops.letv.com/#/c/310700,mtk_stable_5.9_20161010,mt6797_64_m/platform/packages/services/Telephony,2017/3/17 3:48,wuliyong@le.com
+Telephony: Fix issue for memory leank in dual sim UI,http://diana.devops.letv.com/#/c/307332,belmont_dev_leui,mt6797_64_m/platform/packages/services/Telephony,2017/3/14 2:17,wuliyong@le.com
+Telephony: fix issue for network selection notification display,http://diana.devops.letv.com/#/c/326717,kitt_stable_025_20170322,mt6797_64_m/platform/packages/services/Telephony,2017/5/9 7:15,wuliyong@le.com
+Telephony: fix issue for network selection notification display,http://diana.devops.letv.com/#/c/326716,mtk_stable_5.9_20161010,mt6797_64_m/platform/packages/services/Telephony,2017/5/8 8:26,wuliyong@le.com
+Telephony: fix issue for network selection notification display,http://diana.devops.letv.com/#/c/325939,kitt_cert_cmcc_b_20170426,mt6797_64_m/platform/packages/services/Telephony,2017/5/3 7:06,wuliyong@le.com
+Telephony: fix issue for network selection notification display,http://diana.devops.letv.com/#/c/324325,belmont_dev_leui,mt6797_64_m/platform/packages/services/Telephony,2017/4/27 1:12,wuliyong@le.com
+Telephony: Fix issue for phone did not attach to lte,http://diana.devops.letv.com/#/c/280411,c1_dev_coop,ruby/platform/packages/services/Telephony,2016/12/28 10:03,wuliyong@le.com
+Telephony: fix issue for read line1 number from cdma phone,http://diana.devops.letv.com/#/c/278353,le_x10_mp_shipping_20161105,ruby/platform/frameworks/opt/telephony,2016/12/26 7:22,wuliyong@le.com
+Telephony: fix issue for read line1 number from cdma phone,http://diana.devops.letv.com/#/c/278352,ruby_stable_5.9_20161010,ruby/platform/frameworks/opt/telephony,2016/12/26 7:21,wuliyong@le.com
+Telephony: fix issue for read line1 number from cdma phone,http://diana.devops.letv.com/#/c/274178,ruby_dev_leui,ruby/platform/frameworks/opt/telephony,2016/12/19 10:51,wuliyong@le.com
+Telephony: Fix issue for reduce memory hosting,http://diana.devops.letv.com/#/c/301965,qcom_stable_5.9_20161010,ruby/platform/packages/services/Telephony,2017/2/24 8:54,wuliyong@le.com
+Telephony: Fix issue for reduce memory hosting,http://diana.devops.letv.com/#/c/301969,lafite_n_dev_leui,ruby/platform/packages/services/Telephony,2017/2/24 8:54,wuliyong@le.com
+Telephony: Fix issue for reduce memory hosting,http://diana.devops.letv.com/#/c/294125,ruby_dev_leui,ruby/platform/packages/services/Telephony,2017/2/22 2:38,wuliyong@le.com
+Telephony: Fix issue for roaming notification display error,http://diana.devops.letv.com/#/c/304566,qcom_stable_5.9_20161010,ruby/platform/packages/services/Telephony,2017/3/2 10:27,wuliyong@le.com
+Telephony: Fix issue for roaming notification display error,http://diana.devops.letv.com/#/c/300400,ruby_dev_leui,ruby/platform/packages/services/Telephony,2017/2/22 8:29,wuliyong@le.com
+Telephony: Fix issue for roaming notification display error,http://diana.devops.letv.com/#/c/288370,mtk_stable_5.9_20161010,mt6797_64_m/platform/packages/services/Telephony,2017/1/16 1:53,wuliyong@le.com
+Telephony: Fix issue for roaming notification display error,http://diana.devops.letv.com/#/c/280776,belmont_dev_leui,mt6797_64_m/platform/packages/services/Telephony,2017/1/9 8:18,wuliyong@le.com
+Telephony: Fix issue that default sms value is not right after hotswap,http://diana.devops.letv.com/#/c/322334,belmont_dev_leui,mt6797_64_m/platform/packages/services/Telephony,2017/4/21 8:25,wuliyong@le.com
+Telephony: Fix issue that default voice/sms sim not right,http://diana.devops.letv.com/#/c/310848,mtk_stable_5.9_20161010,mt6797_64_m/platform/frameworks/opt/telephony,2017/3/17 5:51,wuliyong@le.com
+Telephony: Fix issue that default voice/sms sim not right,http://diana.devops.letv.com/#/c/309886,belmont_dev_leui,mt6797_64_m/platform/frameworks/opt/telephony,2017/3/16 8:46,wuliyong@le.com
+Telephony: Fix issue that dual sim activity can not quit when plug out sim,http://diana.devops.letv.com/#/c/324051,mtk_stable_5.9_20161010,mt6797_64_m/platform/packages/services/Telephony,2017/4/25 8:55,wuliyong@le.com
+Telephony: Fix issue that dual sim activity can not quit when plug out sim,http://diana.devops.letv.com/#/c/322863,belmont_dev_leui,mt6797_64_m/platform/packages/services/Telephony,2017/4/21 8:25,wuliyong@le.com
+Telephony: fix issues that imsi got by getSubscriberId is null,http://diana.devops.letv.com/#/c/333091,lafite_n_dev_leui,ruby/platform/frameworks/opt/telephony,2017/6/12 6:18,wuliyong@le.com
+Telephony: fix network mode upgrade issue,http://diana.devops.letv.com/#/c/332157,ruby_dev_leui,ruby/platform/packages/services/Telephony,2017/6/2 5:52,wuliyong@le.com
+Telephony: Fix sychronized issue for ConcurrentHashMap,http://diana.devops.letv.com/#/c/265100,mtk_stable_5.9_20161010,mt6797_64_m/platform/frameworks/opt/telephony,2016/12/8 11:24,wuliyong@le.com
+Telephony: Fix sychronized issue for ConcurrentHashMap,http://diana.devops.letv.com/#/c/262753,belmont_dev_leui,mt6797_64_m/platform/frameworks/opt/telephony,2016/12/7 5:10,wuliyong@le.com
+Telephony: get country iso according to mcc if it's not ready,http://diana.devops.letv.com/#/c/301972,mtk_stable_5.9_20161010,mt6797_64_m/platform/frameworks/opt/telephony,2017/2/24 8:57,wuliyong@le.com
+Telephony: get country iso according to mcc if it's not ready,http://diana.devops.letv.com/#/c/298190,belmont_dev_leui,mt6797_64_m/platform/frameworks/opt/telephony,2017/2/23 3:27,wuliyong@le.com
+Telephony: improve dual sim ui performance when switching airplane mode,http://diana.devops.letv.com/#/c/319492,qcom_stable_5.9_20161010,ruby/platform/packages/services/Telephony,2017/4/11 7:09,wuliyong@le.com
+Telephony: improve dual sim ui performance when switching airplane mode,http://diana.devops.letv.com/#/c/312341,ruby_dev_leui,ruby/platform/packages/services/Telephony,2017/3/29 6:06,wuliyong@le.com
+Telephony: improve perfromance of dual sim UI,http://diana.devops.letv.com/#/c/305272,lafite_n_dev_leui,ruby/platform/packages/services/Telephony,2017/3/7 10:03,wuliyong@le.com
+Telephony: Improve progress animation when radio power changing,http://diana.devops.letv.com/#/c/309559,belmont_dev_leui,mt6797_64_m/platform/packages/services/Telephony,2017/3/15 11:32,wuliyong@le.com
+Telephony: improve sim operation progress animation performance,http://diana.devops.letv.com/#/c/310458,ruby_dev_leui,ruby/platform/packages/services/Telephony,2017/3/31 6:18,wuliyong@le.com
+Telephony: improvement for default sub settings,http://diana.devops.letv.com/#/c/333699,lafite_n_dev_leui,ruby/platform/packages/services/Telephony,2017/6/19 2:51,wuliyong@le.com
+Telephony: improving interface implementation,http://diana.devops.letv.com/#/c/307534,lafite_n_dev_leui,ruby/platform/frameworks/base,2017/3/14 6:35,wuliyong@le.com
+Telephony: move default sms sub handling to fwk,http://diana.devops.letv.com/#/c/288441,belmont_dev_leui,mt6797_64_m/platform/packages/services/Telephony,2017/1/18 6:16,wuliyong@le.com
+Telephony: Not showing spn and plmn together when roaming,http://diana.devops.letv.com/#/c/233883,zl1_cert_ct_20160801,ruby/platform/frameworks/opt/telephony,2016/10/25 1:27,wuliyong@le.com
+Telephony: Not showing spn and plmn together when roaming,http://diana.devops.letv.com/#/c/232152,ruby_dev_leui,ruby/platform/frameworks/opt/telephony,2016/10/21 13:21,wuliyong@le.com
+Telephony: not use inactive sim for default voice/sms sub,http://diana.devops.letv.com/#/c/295130,mtk_stable_5.9_20161010,mt6797_64_m/platform/frameworks/opt/telephony,2017/2/10 5:45,wuliyong@le.com
+Telephony: not use inactive sim for default voice/sms sub,http://diana.devops.letv.com/#/c/288474,belmont_dev_leui,mt6797_64_m/platform/frameworks/opt/telephony,2017/1/18 6:16,wuliyong@le.com
+Telephony: preventing system-api check failure when full-build,http://diana.devops.letv.com/#/c/254317,lafite_n_dev_leui,ruby/platform/frameworks/base,2016/11/18 7:07,wuliyong@le.com
+Telephony: Redesign emergency number cache,http://diana.devops.letv.com/#/c/242268,leui_n,leui_lollipop/platform/vendor/letv/frameworks,2016/11/8 9:43,wuliyong@le.com
+Telephony: Remove getEmergencyDisplayName calling,http://diana.devops.letv.com/#/c/242275,lafite_n_dev_leui,ruby/platform/frameworks/base,2016/11/7 10:13,wuliyong@le.com
+Telephony: remove getPreferNetworkType in MobileNetworkSettings,http://diana.devops.letv.com/#/c/332484,lafite_n_dev_leui,ruby/platform/packages/services/Telephony,2017/6/6 9:46,wuliyong@le.com
+Telephony: save phone account only when one sub actived,http://diana.devops.letv.com/#/c/297701,belmont_stable_023_20170120,mt6797_64_m/platform/frameworks/base,2017/2/16 6:11,wuliyong@le.com
+Telephony: save phone account only when one sub actived,http://diana.devops.letv.com/#/c/295133,belmont_stable_5.9_20161010,mt6797_64_m/platform/frameworks/base,2017/2/10 5:47,wuliyong@le.com
+Telephony: save phone account only when one sub actived,http://diana.devops.letv.com/#/c/291697,kitt_stable_5.9_20161010,mt6797_64_m/platform/frameworks/base,2017/1/22 9:17,wuliyong@le.com
+Telephony: save phone account only when one sub actived,http://diana.devops.letv.com/#/c/291673,kitt_dev_leui,mt6797_64_m/platform/frameworks/base,2017/1/22 8:52,wuliyong@le.com
+Telephony: save phone account only when one sub actived,http://diana.devops.letv.com/#/c/288438,belmont_dev_leui,mt6797_64_m/platform/frameworks/base,2017/1/18 6:15,wuliyong@le.com
+Telephony: simple implementation of some interfaces to improve ui performance,http://diana.devops.letv.com/#/c/319478,qcom_stable_5.9_20161010,ruby/platform/frameworks/base,2017/4/11 7:09,wuliyong@le.com
+Telephony: simple implementation of some interfaces to improve ui performance,http://diana.devops.letv.com/#/c/319458,zl1_stable_5.9_20161031,ruby/platform/frameworks/base,2017/4/11 7:08,wuliyong@le.com
+Telephony: simple implementation of some interfaces to improve ui performance,http://diana.devops.letv.com/#/c/313336,ruby_dev_leui,ruby/platform/frameworks/base,2017/3/29 6:07,wuliyong@le.com
+Telephony: take missing patch in for 2710 rebase,http://diana.devops.letv.com/#/c/290107,s2_leui_rebase_r2710,ruby/platform/packages/providers/TelephonyProvider,2017/1/18 9:42,wuliyong@le.com
+Telephony: to solve issue that phone crashed when make emergency call,http://diana.devops.letv.com/#/c/329691,coral_n_dev_leui,ruby/device/letv,2017/5/15 8:31,wuliyong@le.com
+Telephony: to solve issue that phone crashed when make emergency call,http://diana.devops.letv.com/#/c/329663,lafite_n_dev_leui,lafite/device/letv,2017/5/15 8:31,wuliyong@le.com
+Telephony: update data sub when data sim deativated,http://diana.devops.letv.com/#/c/322717,belmont_dev_leui,mt6797_64_m/platform/frameworks/opt/telephony,2017/4/21 8:25,wuliyong@le.com
+Telephony: update user preference when activate/deactivate sim,http://diana.devops.letv.com/#/c/297603,lafite_n_dev_bsp,lafite/platform/vendor/qcom/proprietary,2017/2/22 2:42,wuliyong@le.com
+Telephony: update user preference when activate/deactivate sim,http://diana.devops.letv.com/#/c/295692,coral_n_dev_bsp,msm8996/platform/vendor/qcom/proprietary2,2017/2/15 3:38,wuliyong@le.com
+Telephony: Use phone account for default voice sim,http://diana.devops.letv.com/#/c/277283,zl1_mp_shipping_20160713,ruby/platform/packages/services/Telephony,2016/12/23 6:16,wuliyong@le.com
+Telephony: Use phone account for default voice sim,http://diana.devops.letv.com/#/c/277130,qcom_stable_5.9_20161010,ruby/platform/packages/services/Telephony,2016/12/23 6:10,wuliyong@le.com
+Telephony: Use phone account for default voice sim,http://diana.devops.letv.com/#/c/269218,ruby_dev_leui,ruby/platform/packages/services/Telephony,2016/12/20 7:12,wuliyong@le.com
+Telephony: using correct subId to update mccmnc,http://diana.devops.letv.com/#/c/304565,mtk_stable_5.9_20161010,mt6797_64_m/platform/frameworks/opt/telephony,2017/3/2 10:25,wuliyong@le.com
+Telephony: using correct subId to update mccmnc,http://diana.devops.letv.com/#/c/303108,belmont_dev_leui,mt6797_64_m/platform/frameworks/opt/telephony,2017/3/1 3:06,wuliyong@le.com
+Telephony: X6 P323 patch,http://diana.devops.letv.com/#/c/323491,mtk_stable_5.9_20161010,mt6797_64_m/platform/frameworks/opt/telephony,2017/4/24 5:55,wuliyong@le.com
+Telephony: X6 P323 patch,http://diana.devops.letv.com/#/c/323184,belmont_dev_leui,mt6797_64_m/platform/frameworks/opt/telephony,2017/4/21 8:13,wuliyong@le.com
+Telephony:add owner activity for account selection dialog,http://diana.devops.letv.com/#/c/214500,ruby_dev_leui,ruby/platform/packages/services/Telephony,2016/9/29 9:54,wuliyong@le.com
+Telephony:CallSetting:change world_phone default value to false,http://diana.devops.letv.com/#/c/247125,lafite_n_dev_leui,ruby/platform/frameworks/base,2016/11/14 2:34,wuliyong@le.com
+TelephonyProvider: add catch for SQLiteCantOpenDatabaseException,http://diana.devops.letv.com/#/c/263087,mtk_stable_5.9_20161010,mt6797_64_m/platform/packages/providers/TelephonyProvider,2016/11/29 5:54,wuliyong@le.com
+TelephonyProvider: add catch for SQLiteCantOpenDatabaseException,http://diana.devops.letv.com/#/c/263074,belmont_dev_leui,mt6797_64_m/platform/packages/providers/TelephonyProvider,2016/11/29 5:54,wuliyong@le.com
+TelephonyProvider: add catch for SQLiteCantOpenDatabaseException,http://diana.devops.letv.com/#/c/263021,le_x10_mp_shipping_20161105,ruby/platform/packages/providers/TelephonyProvider,2016/11/29 5:38,wuliyong@le.com
+TelephonyProvider: add catch for SQLiteCantOpenDatabaseException,http://diana.devops.letv.com/#/c/263018,le_x2_us_stable_018_20160916,ruby/platform/packages/providers/TelephonyProvider,2016/11/29 5:38,wuliyong@le.com
+TelephonyProvider: add catch for SQLiteCantOpenDatabaseException,http://diana.devops.letv.com/#/c/263016,s2_stable_5.9_20161010,ruby/platform/packages/providers/TelephonyProvider,2016/11/29 5:38,wuliyong@le.com
+TelephonyProvider: add catch for SQLiteCantOpenDatabaseException,http://diana.devops.letv.com/#/c/263012,ruby_stable_5.9_20161010,ruby/platform/packages/providers/TelephonyProvider,2016/11/29 5:38,wuliyong@le.com
+TelephonyProvider: add catch for SQLiteCantOpenDatabaseException,http://diana.devops.letv.com/#/c/254091,ruby_dev_leui,ruby/platform/packages/providers/TelephonyProvider,2016/11/21 6:12,wuliyong@le.com
+Telepony: fix build error for 2710 rebase,http://diana.devops.letv.com/#/c/290592,x10_n_leui_rebase_r2200,leui_lollipop/platform/vendor/letv/packages/LetvMms,2017/1/19 8:15,wuliyong@le.com
+TeleService: Check slot id if valid when compare with soft sim id,http://diana.devops.letv.com/#/c/262148,belmont_dev_leui,mt6797_64_m/platform/packages/services/Telephony,2016/11/28 7:14,wuliyong@le.com
+TeleService: Check slot id if valid when compare with soft sim id,http://diana.devops.letv.com/#/c/262132,qcom_stable_5.9_20161010,ruby/platform/packages/services/Telephony,2016/11/28 5:58,wuliyong@le.com
+TeleService: Check slot id if valid when compare with soft sim id,http://diana.devops.letv.com/#/c/258956,ruby_dev_leui,ruby/platform/packages/services/Telephony,2016/11/25 11:01,wuliyong@le.com
+TeleService: Fix issue for phone process crash,http://diana.devops.letv.com/#/c/283907,qcom_stable_5.9_20161010,ruby/platform/packages/services/Telephony,2017/1/5 11:16,wuliyong@le.com
+TeleService: Fix issue for phone process crash,http://diana.devops.letv.com/#/c/283905,ruby_dev_leui,ruby/platform/packages/services/Telephony,2017/1/5 11:15,wuliyong@le.com
+TeleService: Fix issue for phone process crash,http://diana.devops.letv.com/#/c/283856,mtk_stable_5.9_20161010,mt6797_64_m/platform/packages/services/Telephony,2017/1/5 10:52,wuliyong@le.com
+TeleService: Fix issue for phone process crash,http://diana.devops.letv.com/#/c/233193,belmont_dev_leui,mt6797_64_m/platform/packages/services/Telephony,2017/1/4 3:31,wuliyong@le.com
+TeleService: Hangup emergency call failed in airplane mode,http://diana.devops.letv.com/#/c/174316,zl1_mp_shipping_20160713,ruby/platform/packages/services/Telephony,2016/8/1 9:11,wuliyong@le.com
+TeleService: Hangup emergency call failed in airplane mode,http://diana.devops.letv.com/#/c/174318,leui_stable_017_20160623,ruby/platform/packages/services/Telephony,2016/8/1 9:11,wuliyong@le.com
+TeleService: Hangup emergency call failed in airplane mode,http://diana.devops.letv.com/#/c/161941,ruby_dev_leui,ruby/platform/packages/services/Telephony,2016/7/19 9:15,wuliyong@le.com
+TeleService: Not set call barring throug ims for cmcc,http://diana.devops.letv.com/#/c/248011,lafite_n_dev_bsp,ruby/device/qcom/common,2016/11/18 8:09,wuliyong@le.com

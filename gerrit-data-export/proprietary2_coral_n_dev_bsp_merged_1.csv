@@ -1,0 +1,10 @@
+Title,Link,Change-Id,Updated,owner,Comments
+"Dual_SIM_UI: if has softSim card  set default data to softSim card",http://diana.devops.letv.com/#/c/321336,Iceb935472549bce3eee1450ab7347ac0ff543b4d,2017-04-28 02:44:19,zhangbin10@le.com,
+"Telephony: Close wfc feature default",http://diana.devops.letv.com/#/c/306951,I34dbe62af0de8aef6d5a6dd07129eeeeccf37af5,2017-03-10 02:33:40,wuliyong@le.com,
+"Telephony: update user preference when activate/deactivate sim",http://diana.devops.letv.com/#/c/295692,I2cbf751e2c355fee6d65af533501aa258d7fa747,2017-02-15 03:38:23,wuliyong@le.com,
+"Dual_SIM_UI: Showing "volte" for open version and "HD" for cmcc version.",http://diana.devops.letv.com/#/c/288634,I6095d746178af8a8a56e80ee862779f69894e7d0,2017-02-10 02:50:26,zhangbin10@le.com,
+"Telephony: default sim settings",http://diana.devops.letv.com/#/c/287896,I7fa75bdd0fb6138001a54e441757275f7a9739e0,2017-02-09 09:45:49,wuliyong@le.com,
+"Revert "166-telephony : use leui mobileNetworkSettings",http://diana.devops.letv.com/#/c/289306,I7c282027cd232d8eb87af444094183ab573824aa,2017-01-17 06:59:33,gaojuanmei@le.com,
+"166-telephony : use leui mobileNetworkSettings",http://diana.devops.letv.com/#/c/279422,I16fccf219ba01ae175fd143903a62a920df8b82e,2016-12-27 10:22:54,gaojuanmei@le.com,
+"PhoneFeatures: remove sim prompt dialog",http://diana.devops.letv.com/#/c/274885,I94f87edfb2f7f25a8633b3748c4e7394d92b7486,2016-12-19 05:19:45,wangquanli@le.com,
+"Dual_SIM_UI: add interface for sim active status",http://diana.devops.letv.com/#/c/273364,Id37086d1d6d410fe26df64d381df0544ddd20ed3,2016-12-16 06:30:28,zhangbin10@le.com,

@@ -1,0 +1,441 @@
+,Fix Emergency callback number is show every time when EC,http://review.sonyericsson.net/#/c/1142355
+9073,Fix for cannot answer a call when touching in some other place,http://review.sonyericsson.net/#/c/1093169
+9206,No indication for long name truncation in calling UI,http://review.sonyericsson.net/#/c/1109729
+9206,Fix for Not possible to answer a call when touching the picture,http://review.sonyericsson.net/#/c/1109714
+12041,Don't remove callbacks when another query is running,http://review.sonyericsson.net/#/c/1109711
+11787,Contact details is not always displayed for incoming calls.,http://review.sonyericsson.net/#/c/1109691
+10932,Add elevation to Response Options/Reject with message Tab,http://review.sonyericsson.net/#/c/1109730
+11698,Screen remains OFF when receive the call from partner device.,http://review.sonyericsson.net/#/c/1109725
+9840,Outgoing call is so heavy because of too many PENDING_OUTGOING events,http://review.sonyericsson.net/#/c/1109720
+11966,Show proper disconnect cause when call ended,http://review.sonyericsson.net/#/c/1109716
+9206,The hold call number displays above active call.,http://review.sonyericsson.net/#/c/1109713
+10932,Avoid animations for Incoming Call,http://review.sonyericsson.net/#/c/1109709
+10932,Avoid an animation for end call screen if there is a secondary call,http://review.sonyericsson.net/#/c/1109706
+5946,"Delete the duplicate ""hd_icon"" definition",http://review.sonyericsson.net/#/c/1109703
+9206,Hold option should be greyed out if it has Multiple calls.,http://review.sonyericsson.net/#/c/1109701
+9222,Conference call should not have call ended interaction,http://review.sonyericsson.net/#/c/1109697
+9073,Fix for null pointer exception when refreash call widget menu,http://review.sonyericsson.net/#/c/1109688
+9207,Switch button disappears when receiving 6th call,http://review.sonyericsson.net/#/c/1093173
+9207,Fix for Manage conference call label overlapping,http://review.sonyericsson.net/#/c/1109717
+11501,FP18520 ViLTE UI(Landscape),http://review.sonyericsson.net/#/c/1093207
+9800,Green animation should not be displayed on status bar.ö¢¢,http://review.sonyericsson.net/#/c/1093177
+9203,Update answer UI when answering call failed,http://review.sonyericsson.net/#/c/1093176
+,Display can't turn on while coming call,http://review.sonyericsson.net/#/c/1254329
+,The string Ñ¢ç#31#911  instead of Ñ¢çEmergency callÑ¢ù displays on MUT,http://review.sonyericsson.net/#/c/1255914
+,The string Ñ¢ç#31#911  instead of Ñ¢çEmergency callÑ¢ù displays on MUT,http://review.sonyericsson.net/#/c/1251618
+11336,DSDS: SIM1 or SIM2 indicator should not be displayed with SIP call,http://review.sonyericsson.net/#/c/1237941
+,"The ""End call"" button will disappear when make second not FND call",http://review.sonyericsson.net/#/c/1228615
+,[DSDS] Bring up for Call Sub Selection Handling,http://review.sonyericsson.net/#/c/1161749
+,"Decline incoming call button and ""phone number"" display overlap",http://review.sonyericsson.net/#/c/1160863
+,The emergency call UI display incorrect,http://review.sonyericsson.net/#/c/1140648
+11336,FP16210 DSDS InCall UI adaption,http://review.sonyericsson.net/#/c/1141161
+12002,Check max capacity of conference call to disappear merge button,http://review.sonyericsson.net/#/c/1125780
+,Replace one-handed slider resources,http://review.sonyericsson.net/#/c/1120357
+,[FP20499] One-handed operations 1.2,http://review.sonyericsson.net/#/c/1095615
+,"Revert ""Fix build error(InCallUI)""",http://review.sonyericsson.net/#/c/1169541
+,Fix build error(InCallUI),http://review.sonyericsson.net/#/c/1167928
+,Set CallWidget default visibility to gone,http://review.sonyericsson.net/#/c/1125675
+,Allow DTMF request on Outgoing call,http://review.sonyericsson.net/#/c/1116480
+11401,The video slider is shown overlapped on waiting call panel,http://review.sonyericsson.net/#/c/1096958
+,Remove cityid to avoid crash,http://review.sonyericsson.net/#/c/1093183
+,InCallUI init adjustion,http://review.sonyericsson.net/#/c/1052404
+,"Revert ""Fix build error(Telecom)""",http://review.sonyericsson.net/#/c/1169544
+,Fix build error(Telecom),http://review.sonyericsson.net/#/c/1165260
+,DSDS: Fix a crash problem(additional),http://review.sonyericsson.net/#/c/1093736
+11336,DSDS: Avoid sub selector be wrongly popped up,http://review.sonyericsson.net/#/c/1086981
+11522,DSDS: Fix a crash problem,http://review.sonyericsson.net/#/c/1086628
+,Fix MMI code dailing issue,http://review.sonyericsson.net/#/c/1093135
+11336,FP16210 DSDS Outgoing Call Sub Selection Handling,http://review.sonyericsson.net/#/c/1079462
+,Tmp solution to dial emrgency Dialer.,http://review.sonyericsson.net/#/c/1076189
+,Add isVideo interface for video call,http://review.sonyericsson.net/#/c/1069544
+,"Revert ""Fix build error(Telephony)""",http://review.sonyericsson.net/#/c/1169543
+,Fix build error(Telephony),http://review.sonyericsson.net/#/c/1165268
+11525,DSDS:Dismiss the dialog of pin change for slot2 after it's done.,http://review.sonyericsson.net/#/c/1082449
+,Set all item clickable when onResume(),http://review.sonyericsson.net/#/c/1139504
+,Remove CallerInfoCacheUpdateReceiver define,http://review.sonyericsson.net/#/c/1082680
+,Issue: when Multi Sim is Enabledthe content text of notification bar        are set twice.,http://review.sonyericsson.net/#/c/1103742
+,Fix VM notification issue,http://review.sonyericsson.net/#/c/1143900
+,Fix voicemail notification use default notification,http://review.sonyericsson.net/#/c/1138776
+,Crash at com.android.incallui when run spank.,http://review.sonyericsson.net/#/c/1254533
+,Disconnect the WaitingForAccountCall when incoming call,http://review.sonyericsson.net/#/c/1236559
+,Fix crash issue when tap call log then select SIP call,http://review.sonyericsson.net/#/c/1201880
+,Fix InCallUI crash issue.,http://review.sonyericsson.net/#/c/1182175
+,DSDS:Add SIM name on incoming call notifications,http://review.sonyericsson.net/#/c/1176117
+,Update Answer and Decline icon,http://review.sonyericsson.net/#/c/1157789
+11336,DSDS: InCall UI Crash in landscape mode,http://review.sonyericsson.net/#/c/1125686
+,Remove MTK original translation,http://review.sonyericsson.net/#/c/1096772
+,Remove MTK strings,http://review.sonyericsson.net/#/c/1094992
+,Fix music can not stop when receive call in vibration mode,http://review.sonyericsson.net/#/c/1188757
+,Fix string label issue,http://review.sonyericsson.net/#/c/1168032
+11780,Outgoing call cannot be cancelled after short pressing key on PHF.,http://review.sonyericsson.net/#/c/1163777
+,Avoid crash when quickly tapping Enable AM button,http://review.sonyericsson.net/#/c/1149822
+,Key on PHF doesn't work,http://review.sonyericsson.net/#/c/1122674
+,Remove MTK original translation,http://review.sonyericsson.net/#/c/1096708
+9337,Add CNAP(Calling Name Presentation) support,http://review.sonyericsson.net/#/c/1088318
+,Use Async task to clear Answer machine notification,http://review.sonyericsson.net/#/c/1288366
+,Fix 110/119 can not be dialed out in locked screen,http://review.sonyericsson.net/#/c/1282165
+,FP15138 CallRecording - On Off setting for Call recording feature.,http://review.sonyericsson.net/#/c/1079159
+,FIX for GSMA TS27,http://review.sonyericsson.net/#/c/1265389
+,The number of remaining attempts not displayed,http://review.sonyericsson.net/#/c/1258861
+,Mobile networks display grey with SIM card on ComsosSS,http://review.sonyericsson.net/#/c/1247775
+,Mobile networks should display grey without SIM card,http://review.sonyericsson.net/#/c/1241512
+,phone number changed to Unknown in calllog,http://review.sonyericsson.net/#/c/1212214
+,Notification sound shouldn't be heard after send USSD failed.,http://review.sonyericsson.net/#/c/1176375
+,[TUL.FC][Phone]remove message required by operator,http://review.sonyericsson.net/#/c/1191326
+,Fix bug for PTCRB certification,http://review.sonyericsson.net/#/c/1181736
+11525,Modify PIN/PUK MMI code handling in multi sim,http://review.sonyericsson.net/#/c/1180889
+,Fix call settings UI issue,http://review.sonyericsson.net/#/c/1176115
+,[TUL.FC][Phone]remove message required by operator,http://review.sonyericsson.net/#/c/1168259
+,Call Barring's options don't display gray when activated FDN,http://review.sonyericsson.net/#/c/1166393
+,While flight mode on it take too long time to establish ECC,http://review.sonyericsson.net/#/c/1166774
+,"Remove extra String ""Attempts remaining:""",http://review.sonyericsson.net/#/c/1157941
+,FP12456 Allow to force upgrade to LTE for DS,http://review.sonyericsson.net/#/c/1151455
+,Use new string label,http://review.sonyericsson.net/#/c/1124608
+,Remove MagiConference from CallSetting,http://review.sonyericsson.net/#/c/1124468
+10676,DSDS requirement: Change call forwarding,http://review.sonyericsson.net/#/c/1122555
+,Merge remote-tracking branch 'remotes/origin/odm/arima/android/l-chambal-cosmos-somc' into rebaseMain,http://review.sonyericsson.net/#/c/1108460
+,Add strings,http://review.sonyericsson.net/#/c/1107544
+,Remove MTK original translation,http://review.sonyericsson.net/#/c/1096750
+,Remove MTK strings,http://review.sonyericsson.net/#/c/1093969
+10972,Search in Settings - Telephony update,http://review.sonyericsson.net/#/c/1090482
+10237,Selection mode doesn't become auto from manual automatically,http://review.sonyericsson.net/#/c/1082556
+8374,Toggle data connection when FDN is enabled,http://review.sonyericsson.net/#/c/1075192
+9209,Change PhoneAlertDialog background color,http://review.sonyericsson.net/#/c/1088671
+10932,Update telephony UI resource w1502.2,http://review.sonyericsson.net/#/c/1088661
+9218,Phone number should be displayed in normal order in Arabic,http://review.sonyericsson.net/#/c/1082825
+10194,Delete the duplication string id,http://review.sonyericsson.net/#/c/1082688
+8978,Customization of networks searching,http://review.sonyericsson.net/#/c/1082469
+11007,Fix to UI hanging for Call Waiting setting.,http://review.sonyericsson.net/#/c/1081669
+11615,"Start ""Data Usage"" for ""Mobile data"" notificaiton",http://review.sonyericsson.net/#/c/1081617
+8500,FP6039 Extended call failed string,http://review.sonyericsson.net/#/c/1071094
+8521,Close the gap from OSS (data roaming),http://review.sonyericsson.net/#/c/1078369
+10194,[FP18535] Disable data traffic in 2G only network mode,http://review.sonyericsson.net/#/c/1078368
+8829,Bringup of Notification icon for Mobie data setting,http://review.sonyericsson.net/#/c/1066737
+7391,FP15138 CallRecording - Call setting implementation for Call Recorder,http://review.sonyericsson.net/#/c/1079325
+10932,Update drawable resources for W49.3,http://review.sonyericsson.net/#/c/1080503
+10289,coverity and findbugs correction for the TeleService project(For PID8915),http://review.sonyericsson.net/#/c/1080437
+,Comment out code for increasing ringtone,http://review.sonyericsson.net/#/c/1077939
+9160,Normal UI(CallSettings),http://review.sonyericsson.net/#/c/1073988
+11260,AID should not be shown in user variant,http://review.sonyericsson.net/#/c/1075311
+8971,Dial FDN number from FDN list directly.,http://review.sonyericsson.net/#/c/1068920
+8975,Don't bar the call even if the state is out of service,http://review.sonyericsson.net/#/c/1066849
+8519,Popup dialog for data traffic switching widget,http://review.sonyericsson.net/#/c/1065025
+9429,Hearing aids Feature,http://review.sonyericsson.net/#/c/1065250
+8460,FP12456 Allow to force upgrade to LTE,http://review.sonyericsson.net/#/c/1070387
+9224,FP14556 Answering machine,http://review.sonyericsson.net/#/c/1070352
+8957,Clear all settings of the PhoneApp after setting reset,http://review.sonyericsson.net/#/c/1064913
+9194,Add Interface to get config from Telecomm,http://review.sonyericsson.net/#/c/1063717
+9194,Add semcbuild.properties to run code check tools on TeleService,http://review.sonyericsson.net/#/c/1067312
+8459,Fixing EditPhoneNumberPreference to avoid overwriting default number,http://review.sonyericsson.net/#/c/1067299
+9427,Change SharedPreferences.Editor.commit() to apply(),http://review.sonyericsson.net/#/c/1064865
+9194,Add the method to check whether the device is tablet,http://review.sonyericsson.net/#/c/1063805
+,Revert commit d9a9d16f92bff3ca954c5dcf0556702895432854,http://review.sonyericsson.net/#/c/1295598
+10861,Fix build error,http://review.sonyericsson.net/#/c/1110126
+11917,Fix no response when MMI fails on emergency dialer,http://review.sonyericsson.net/#/c/1108844
+11912,Removes handling of Dock event,http://review.sonyericsson.net/#/c/1108795
+9160,Change Checkboxes to Toggle switches on CallSettings,http://review.sonyericsson.net/#/c/1108552
+10972,Avoid race condition in SomcPhoneSearchIndexablesProvider,http://review.sonyericsson.net/#/c/1108462
+9014,Show voicemail in call log should not be seen,http://review.sonyericsson.net/#/c/1108250
+10972,Search in Setting update of non indexable keys,http://review.sonyericsson.net/#/c/1107292
+9224,Change request of Answering Machine,http://review.sonyericsson.net/#/c/1106794
+11778,Added USSD/SS error handling,http://review.sonyericsson.net/#/c/1106813
+11751,Unable to hang up emergency call when flight mode is ON,http://review.sonyericsson.net/#/c/1106758
+12147,Remove '0' for '+' when user presses the key in Emergency Dialer,http://review.sonyericsson.net/#/c/1106824
+10932,Fix for additional Keyboard on EmergencyDialer screen,http://review.sonyericsson.net/#/c/1106750
+10932,Update themes for settings of Telephony app,http://review.sonyericsson.net/#/c/1088714
+11205,Phone crash happened while making emergency calls in guest mode,http://review.sonyericsson.net/#/c/1081667
+,The Equalizer display wrong value.,http://review.sonyericsson.net/#/c/1103776
+,The Phone account settings is same as SIP settings,http://review.sonyericsson.net/#/c/1098611
+,Fix MMI code crash issue.,http://review.sonyericsson.net/#/c/1093215
+,Remove Voicemail from GENERAL tab,http://review.sonyericsson.net/#/c/1093174
+,Remove PhoneAccountSettings from SIM1 \u0026 SIM2 tab,http://review.sonyericsson.net/#/c/1093154
+,Phone hold button and mute button issue.,http://review.sonyericsson.net/#/c/1091780
+11522,FP16210 DSDS Answering machine,http://review.sonyericsson.net/#/c/1085886
+,Issue: DSDS call forward notification issue,http://review.sonyericsson.net/#/c/1112347
+,Device could not complete the authentication procedure in SingTel's 3G network,http://review.sonyericsson.net/#/c/1115338
+,Issue: Pin code request pop up after pin code is locked,http://review.sonyericsson.net/#/c/1113852
+,Issue: The item isn't displayed gray when receiving unexpect network error,http://review.sonyericsson.net/#/c/1104912
+,Fix SimLock Prompt doesn't show the correct Lock information,http://review.sonyericsson.net/#/c/1212745
+,Home icon for 3G \u0026 2G home SPNs should be displayed,http://review.sonyericsson.net/#/c/1172600
+,Set the Phone account settings invisible in Colombia CDF,http://review.sonyericsson.net/#/c/1178934
+,Modify the wrong note Ñ¢çFail on FDN CheckÑ¢ù pops up,http://review.sonyericsson.net/#/c/1169227
+PID9840,Bring up PID9840 to Cosmos MR1,http://review.sonyericsson.net/#/c/1264223
+PID9224,Bring up PID9224 to Cosmos MR1,http://review.sonyericsson.net/#/c/1263947
+PID010932,Bring up PID010932 to Cosmos MR1,http://review.sonyericsson.net/#/c/1262777
+9160,Fix wrong action bar theme issue,http://review.sonyericsson.net/#/c/1262818
+,Fix L-MR1 bring up issue,http://review.sonyericsson.net/#/c/1262764
+,"[FP18740] Add ""Allow voice roaming"" policy.",http://review.sonyericsson.net/#/c/1261944
+,MR1 bring up for platform/packages/services/Telecomm,http://review.sonyericsson.net/#/c/1261042
+,Add MTK patch ALPS02068990,http://review.sonyericsson.net/#/c/1224616
+,Call forwarding icon size is not correct,http://review.sonyericsson.net/#/c/1243723
+,"Search mode displays ""Automatic"" and then ""Manual"" during network search",http://review.sonyericsson.net/#/c/1242710
+,RuntimeException in com.android.phone,http://review.sonyericsson.net/#/c/1241902
+,Add MTK patch ALPS02068990,http://review.sonyericsson.net/#/c/1223952
+,Disable LTE for AU operator under 5 cases.,http://review.sonyericsson.net/#/c/1221913
+,phone number changed to Unknown in Call Log.,http://review.sonyericsson.net/#/c/1212369
+,"Revert ""phone number changed to Unknown in calllog""",http://review.sonyericsson.net/#/c/1212416
+,SIM2 FDN contact list activity back to SIM1 FDN settings by action bar,http://review.sonyericsson.net/#/c/1183020
+,Phone PIN2 box will pop up issue,http://review.sonyericsson.net/#/c/1181802
+,Action bar test color should be white,http://review.sonyericsson.net/#/c/1181929
+,No contacts display on the FdnList,http://review.sonyericsson.net/#/c/1179031
+,Modification for PhoneGlobals,http://review.sonyericsson.net/#/c/1166456
+,Remove VideoCallFragment because not support,http://review.sonyericsson.net/#/c/1297623
+,Avoid null ponit exception in AnswerPresenter regarding getUi,http://review.sonyericsson.net/#/c/1279158
+,Remove VideoCallFragment because not support,http://review.sonyericsson.net/#/c/1299045
+9206,No indication for long name truncation in calling UI,http://review.sonyericsson.net/#/c/1293593
+,Fix InCallUI OOM issue,http://review.sonyericsson.net/#/c/1287274
+9224,Update save button for AM settings,http://review.sonyericsson.net/#/c/1278995
+,Modify the dialer default package name,http://review.sonyericsson.net/#/c/1287243
+,Fix not able to enter answering machine UI,http://review.sonyericsson.net/#/c/1281116
+,Dialed number is changed after call establishment,http://review.sonyericsson.net/#/c/1272537
+,Wrong sim settings are shown when Data roaming is off notification,http://review.sonyericsson.net/#/c/1270538
+9194,Change the name from telecomm to telecom,http://review.sonyericsson.net/#/c/1077988
+9224,FP14556 Answering machine,http://review.sonyericsson.net/#/c/1068063
+9194,Add Interface to get config from Telecomm,http://review.sonyericsson.net/#/c/1065553
+9194,Notify extra parameters to telecomm,http://review.sonyericsson.net/#/c/1063790
+,update data traffic notification when data sub change,http://review.sonyericsson.net/#/c/1285617
+9194,Add interface of Telephony for Somc,http://review.sonyericsson.net/#/c/1055347
+,Enable the Supplementary services notifications function,http://review.sonyericsson.net/#/c/1288561
+,FIX for GSMA TS27,http://review.sonyericsson.net/#/c/1285311
+PID005946,Disable VoLTE,http://review.sonyericsson.net/#/c/1279097
+,Fix can not enter into APN,http://review.sonyericsson.net/#/c/1275829
+,FP19676 cosmos MR1 adaption,http://review.sonyericsson.net/#/c/1273651
+PID008829,Bring up PID008829 to cosmos MR1,http://review.sonyericsson.net/#/c/1271242
+9209,Fix PIN input keyboard is show on emergency call UI,http://review.sonyericsson.net/#/c/1271241
+PID012802,Bring up PID012802 to cosmos MR1,http://review.sonyericsson.net/#/c/1270627
+PID009224,Bring up PID009224,http://review.sonyericsson.net/#/c/1270475
+PID011524,Bring up PID011524 to cosmos MR1,http://review.sonyericsson.net/#/c/1270238
+PID009160,Bring up PID009160 to cosmos MR1,http://review.sonyericsson.net/#/c/1269368
+PID012444,Bring up PID012444 to cosmos MR1,http://review.sonyericsson.net/#/c/1269277
+PID008531,Bring up PID008531 to cosmos MR1,http://review.sonyericsson.net/#/c/1269245
+PID010932,Bring up PID010932 to cosmos MR1,http://review.sonyericsson.net/#/c/1269197
+PID010960,Bring up PID010960 to cosmos MR1,http://review.sonyericsson.net/#/c/1268470
+PID008416,Bring up PID008416 to cosmos MR1,http://review.sonyericsson.net/#/c/1268429
+,Add new api which check if the voice service is STATE_IN_SERVICE It can acquire service state in the guest user process.,http://review.sonyericsson.net/#/c/1268319
+,Cosmos MR1 bring up,http://review.sonyericsson.net/#/c/1267521
+,Remove MTK original translation,http://review.sonyericsson.net/#/c/1096795
+11525,DSDS: data connection state change event DS adaption,http://review.sonyericsson.net/#/c/1166430
+,Wrong phone sub CF notification icon shown,http://review.sonyericsson.net/#/c/1165109
+,SS notification is not displayed during MO Voice Call,http://review.sonyericsson.net/#/c/1163416
+,Phone account icon issue,http://review.sonyericsson.net/#/c/1161816
+,Type PIN2 screen doesn't appear when edit the contact number,http://review.sonyericsson.net/#/c/1161712
+,Data roaming settings of non data traffic SIM card should be gray out,http://review.sonyericsson.net/#/c/1161732
+,Wrong max length of phone number in FDN list.,http://review.sonyericsson.net/#/c/1144052
+,"Wrong toast popup when click ""Activate fixed dialing"" in call settings",http://review.sonyericsson.net/#/c/1143567
+12259,Enable debug log of TeleService,http://review.sonyericsson.net/#/c/1142749
+12150,Strings for Conference URI setting,http://review.sonyericsson.net/#/c/1142649
+10972,Answering machine was missing from Search in Settings,http://review.sonyericsson.net/#/c/1142638
+10860,Gray out dependent menu in call blocking settings,http://review.sonyericsson.net/#/c/1125690
+11523,DSDS: voicemail in call log dsds adaption,http://review.sonyericsson.net/#/c/1101309
+9160,Update launcher SIP icon,http://review.sonyericsson.net/#/c/1090067
+9160,Update the application icon for Telecom,http://review.sonyericsson.net/#/c/1088685
+,MTK MP has add the interface to disconnect all the call,http://review.sonyericsson.net/#/c/1093091
+,Emergency call display in call log when make a emergency call.,http://review.sonyericsson.net/#/c/1098484
+11522,FP16210 DSDS Answering Machine,http://review.sonyericsson.net/#/c/1087002
+PID11522,Adaption for PID11522,http://review.sonyericsson.net/#/c/1271633
+PID11889,Adaption for PID11889,http://review.sonyericsson.net/#/c/1271618
+8529,Telecom app crash when make outgoing calls in guest mode.,http://review.sonyericsson.net/#/c/1267507
+4384,Volume index is incorrect When reseting to normal from vibrate mode,http://review.sonyericsson.net/#/c/1265171
+PID9223,Bring up PID9223 to Cosmos MR1,http://review.sonyericsson.net/#/c/1265136
+9720,Bring up PID9720 to Cosmos MR1,http://review.sonyericsson.net/#/c/1265111
+PID11336,Bring up PID11336 to Cosmos MR1,http://review.sonyericsson.net/#/c/1264966
+PID11522,Bring up PID11522 to Cosmos MR1,http://review.sonyericsson.net/#/c/1264306
+12009,Incoming call is ended when hang up Active call.,http://review.sonyericsson.net/#/c/1264285
+,Display SIM1 icon when switch sixth call and conference call,http://review.sonyericsson.net/#/c/1195003
+10246,Show on hold notification for voice calls,http://review.sonyericsson.net/#/c/1179314
+,Conference Call UI adjustment,http://review.sonyericsson.net/#/c/1180340
+,Ongoing call flash in status bar after pressing power key twice,http://review.sonyericsson.net/#/c/1178493
+10932,Fix the indication of UX review,http://review.sonyericsson.net/#/c/1159785
+,Reset the connection pending flag when bluetooth is disconnected,http://review.sonyericsson.net/#/c/1212632
+10246,Include held/resumed SS notification,http://review.sonyericsson.net/#/c/1184170
+,The total call time in Service tests always displays wrong,http://review.sonyericsson.net/#/c/1183458
+,Include held/resumed SS notification,http://review.sonyericsson.net/#/c/1180645
+,The string/label Ñ¢çAttempts remainingÑ¢ù shouldn't displayed,http://review.sonyericsson.net/#/c/1191280
+11525,DSDS: Data traffic state is wrong after click QS button,http://review.sonyericsson.net/#/c/1169829
+,Merge remote-tracking branch 'remotes/origin/odm/arima/android/l-chambal-cosmos-somc' into rebaseMain,http://review.sonyericsson.net/#/c/1106924
+8959,Emergency number with CLIR code can't be dialed when no SIM card.,http://review.sonyericsson.net/#/c/1096943
+9223,Reject call with message,http://review.sonyericsson.net/#/c/1067404
+4384,Increasing Ringtone,http://review.sonyericsson.net/#/c/1088563
+8529,FP11711 Supplementary Request for Taiwan Emergency Call,http://review.sonyericsson.net/#/c/1078620
+9194,Change the name from telecomm to telecom,http://review.sonyericsson.net/#/c/1078822
+9224,Pop up 'Unfortunately Phone has stopped' and take a bugreport,http://review.sonyericsson.net/#/c/1071313
+11205,FP20672 Multi user functionality on telephony devices,http://review.sonyericsson.net/#/c/1074041
+9224,Fix issues of outgoing call during the AM working,http://review.sonyericsson.net/#/c/1074029
+9986,Update AM setting UI according to Spec in w1447.1,http://review.sonyericsson.net/#/c/1074062
+9986,FP18550 Change the mode to non-support speaker when device is Tablet,http://review.sonyericsson.net/#/c/1072217
+9224,Outgoing call doesn't work if the answering machine is enabled,http://review.sonyericsson.net/#/c/1072223
+9194,Enable the permission check function,http://review.sonyericsson.net/#/c/1072213
+10211,The DTMF key information was output to logcat log,http://review.sonyericsson.net/#/c/1071303
+9064,DTMF tones cannot be sent to the participants of the conference call,http://review.sonyericsson.net/#/c/1067818
+9226,Make it possible to run monkey on Telecom app,http://review.sonyericsson.net/#/c/1067822
+9221,Add the waiting call screen,http://review.sonyericsson.net/#/c/1067258
+9160,Change theme in Call Settings,http://review.sonyericsson.net/#/c/1067251
+8998,Added dialer_default_package resource,http://review.sonyericsson.net/#/c/1067241
+9194,Add Interface to get config from Telecomm,http://review.sonyericsson.net/#/c/1065659
+9194,Implement interface to gets a phone type,http://review.sonyericsson.net/#/c/1065393
+9194,Notify extra parameters to telecomm,http://review.sonyericsson.net/#/c/1065362
+9194,Add interface of Telephony for Somc,http://review.sonyericsson.net/#/c/1063609
+8499,Somc Notification Adaption,http://review.sonyericsson.net/#/c/1061627
+,"Revert ""Add user permission for InCallUI""",http://review.sonyericsson.net/#/c/1278190
+,Add user permission for InCallUI,http://review.sonyericsson.net/#/c/1276839
+,Check whether it is Conference call,http://review.sonyericsson.net/#/c/1250570
+9842,Hiding interaction buttons when Otp lock is active,http://review.sonyericsson.net/#/c/1228448
+,Check whether query map has id before get this id,http://review.sonyericsson.net/#/c/1198374
+,If user did not modify SIM name using SIM1SIM2 instead.,http://review.sonyericsson.net/#/c/1174106
+,If incall is full screen cancel in call notification,http://review.sonyericsson.net/#/c/1171500
+,Keep same color with incall for am,http://review.sonyericsson.net/#/c/1145141
+,Add phone number when judge same call,http://review.sonyericsson.net/#/c/1303871
+,Disconnect the WaitingForAccountCall when incoming call,http://review.sonyericsson.net/#/c/1288542
+,FP19777 Hutchison HD Voice Indicator,http://review.sonyericsson.net/#/c/1278357
+,Modify select phone account layout name,http://review.sonyericsson.net/#/c/1278208
+,Add user permission for InCallUI,http://review.sonyericsson.net/#/c/1278207
+,solve compile error,http://review.sonyericsson.net/#/c/1270195
+,MR1 bring up for platform/packages/apps/InCallUI,http://review.sonyericsson.net/#/c/1268194
+,Enable the Supplementary services notifications function,http://review.sonyericsson.net/#/c/1250264
+,Avoid Async for multi-threads,http://review.sonyericsson.net/#/c/1239134
+9842,Support of OTP call admin in telephony service,http://review.sonyericsson.net/#/c/1072003
+,Add LTR when display miss call number,http://review.sonyericsson.net/#/c/1183520
+,Remove mute for AM,http://review.sonyericsson.net/#/c/1176106
+,Add default radio to ring tong for incoming call,http://review.sonyericsson.net/#/c/1161814
+,Modify AM UI for call log sub selector,http://review.sonyericsson.net/#/c/1158050
+,Modify UI for AM,http://review.sonyericsson.net/#/c/1156488
+PID9224,AM MTK adajustion for AM audio,http://review.sonyericsson.net/#/c/1149443
+12009,Hold call is ended when making the 2nd outgoing call on MUT.,http://review.sonyericsson.net/#/c/1148153
+9783,Change to New Home Badge API in Phone application,http://review.sonyericsson.net/#/c/1072004
+,Fix a crash when sip call,http://review.sonyericsson.net/#/c/1121468
+PID11336,Don't prompt to select the subscription when adding another call,http://review.sonyericsson.net/#/c/1106489
+,Add support to set ring tone for SIM2,http://review.sonyericsson.net/#/c/1104785
+9230,Updated headset button handling,http://review.sonyericsson.net/#/c/1070407
+9221,Support End current call and answer,http://review.sonyericsson.net/#/c/1071521
+,Remove MTK strings from code,http://review.sonyericsson.net/#/c/1095358
+9224,Update Answering Machine 2nd relese,http://review.sonyericsson.net/#/c/1071467
+9031,Fix for turning off the speaker after unplugging the wired headset.,http://review.sonyericsson.net/#/c/1071369
+9194,Add semcbuild.properties to run code check tools on Telecomm,http://review.sonyericsson.net/#/c/1069540
+11270,[FP19276] Operator settings based on SIM,http://review.sonyericsson.net/#/c/1071523
+9224,Migrate AnseringMachine data from Telephony as needed,http://review.sonyericsson.net/#/c/1071494
+9224,Update layout for AnsweringMachine,http://review.sonyericsson.net/#/c/1071346
+10932,Update drawable resources for W48.2,http://review.sonyericsson.net/#/c/1071531
+9224,FP14556 Answering machine,http://review.sonyericsson.net/#/c/1069265
+PID9224,Add one AIDL interface for mute current call,http://review.sonyericsson.net/#/c/1300156
+,Remove the inactive phone account,http://review.sonyericsson.net/#/c/1291699
+3701,No ringtone for a contact if contact ringtone file is removed,http://review.sonyericsson.net/#/c/1169805
+,check pin2 retry times when pin status is open,http://review.sonyericsson.net/#/c/1285452
+,Don't pop up dialog if network mode is already GSM only,http://review.sonyericsson.net/#/c/1240188
+,Adaption Equalizer setting for WB/NB mode,http://review.sonyericsson.net/#/c/1190136
+,ICE error not display on the top,http://review.sonyericsson.net/#/c/1146764
+,Modify slot id to sub id,http://review.sonyericsson.net/#/c/1142500
+10861,Fix build error,http://review.sonyericsson.net/#/c/1139315
+,Put dialog up lock screen,http://review.sonyericsson.net/#/c/1139033
+,Modify two parameter to adaption call settings.,http://review.sonyericsson.net/#/c/1137995
+,Set network mode use manual instand of Semi Automatic,http://review.sonyericsson.net/#/c/1136244
+8533,Customize for Telstra to display PLMN other than SPN of selected.,http://review.sonyericsson.net/#/c/1067908
+8532,Customize for YOIGO to display PLMN other than SPN of selected.,http://review.sonyericsson.net/#/c/1067898
+8960,USSD notification sound and vibration effect,http://review.sonyericsson.net/#/c/1067891
+10932,Update drawable resources for W48.2,http://review.sonyericsson.net/#/c/1078411
+PID9676,Adaptive FP12441 for Cosmos,http://review.sonyericsson.net/#/c/1065376
+11215,Adaptive FP4712 for Cosmos,http://review.sonyericsson.net/#/c/1064925
+10840,Cannot input the dial number from external keyboard while button focused,http://review.sonyericsson.net/#/c/1067590
+,Adaption for L0.TC9PRA.DEV.tsubasa.p4,http://review.sonyericsson.net/#/c/1075983
+PID9220,Add lost style when do rebase,http://review.sonyericsson.net/#/c/1075981
+9220,Operator message content font not readable after typing USSD code,http://review.sonyericsson.net/#/c/1073206
+8915,Updated UI Flow of PIN2 changing show user number of attempts.,http://review.sonyericsson.net/#/c/1075391
+,[FP19414]SIM PIN cache,http://review.sonyericsson.net/#/c/1075330
+8526,FP7781 Disable all charge popups,http://review.sonyericsson.net/#/c/1071028
+PID9160,Add DefaultRingtonePreference to avoid crash.,http://review.sonyericsson.net/#/c/1072183
+9160,Move CallFeatureSettings from Dialer,http://review.sonyericsson.net/#/c/1067689
+10513,Fix crash issue when dismiss MMI dialog,http://review.sonyericsson.net/#/c/1065675
+10265,Change debug level depending on software variant,http://review.sonyericsson.net/#/c/1065655
+9014,Adds voice mail call log integration options in call settings,http://review.sonyericsson.net/#/c/1065647
+9226,Make it possible to run monkey on TeleService app,http://review.sonyericsson.net/#/c/1067826
+,Just regist NetworkLocked event for slot1,http://review.sonyericsson.net/#/c/1068733
+,Enable simlock unlock panel,http://review.sonyericsson.net/#/c/1057814
+11525,Modify PIN/PUK MMI code handling in multi sim,http://review.sonyericsson.net/#/c/1087045
+11386,Add a missing string for 2 sim swap function,http://review.sonyericsson.net/#/c/1088887
+,Ringtone need subid extra,http://review.sonyericsson.net/#/c/1084507
+11336,FP16210 DSDS Outgoing Call Sub Selection Handling,http://review.sonyericsson.net/#/c/1084264
+,DSDS Call Features Setting,http://review.sonyericsson.net/#/c/1077369
+10707,"Add ""+"" to voicemail number when international roaming",http://review.sonyericsson.net/#/c/1083083
+6545,AirWatch Disable Data Roaming,http://review.sonyericsson.net/#/c/1056637
+11586,The background hold call is disconnected illegally,http://review.sonyericsson.net/#/c/1093172
+9205,action buttons are missing in calling screen,http://review.sonyericsson.net/#/c/1093168
+,[Cosmos] Request to set flag to reflect status in calling mode,http://review.sonyericsson.net/#/c/1156181
+9194,Fix NPE in ESTA stability test,http://review.sonyericsson.net/#/c/1140710
+9840,Outgoing call takes too long time,http://review.sonyericsson.net/#/c/1090079
+9222,Should not turn on screen after call is ended,http://review.sonyericsson.net/#/c/1090093
+9160,Change Checkboxes to Toggle switches on CallSettings,http://review.sonyericsson.net/#/c/1089914
+12229,Creates new empty Bundles when creating new Call,http://review.sonyericsson.net/#/c/1183272
+,The time of the end call in ongoing UI display,http://review.sonyericsson.net/#/c/1177834
+,The SIP call can not be retrieved when hold a SIP call,http://review.sonyericsson.net/#/c/1168508
+PID11688,Fix for no response when send USSD when no simcard inserted.,http://review.sonyericsson.net/#/c/1184871
+,Add default PhoneAccount when no simcard inserted,http://review.sonyericsson.net/#/c/1184883
+,"The setting ""dual_mic_noise_suppression_enabled\u003dtrue"" cannot  work.",http://review.sonyericsson.net/#/c/1174104
+,Display duplicate operator name,http://review.sonyericsson.net/#/c/1173912
+10204,Use error code RESPONSE_ERROR instead of EXCEPTION_ERROR in Call blocking Settings,http://review.sonyericsson.net/#/c/1172447
+,Dialog pop up when set preferred net work if SIM1/2 disabled,http://review.sonyericsson.net/#/c/1170964
+,Remove commend DIALOG_ALL_FORBIDDEN from NetworkSettings,http://review.sonyericsson.net/#/c/1169446
+,"The ""Preferred network type"" display grey during a active call",http://review.sonyericsson.net/#/c/1166459
+,Display can't turn on while coming call,http://review.sonyericsson.net/#/c/1274526
+,The string Ñ¢ç#31#911  instead of Ñ¢çEmergency callÑ¢ù displays on MUT,http://review.sonyericsson.net/#/c/1274485
+11889,Play ringtone if receives MT call during hold call,http://review.sonyericsson.net/#/c/1253924
+,Conference call is still on hold after hanging up the third call,http://review.sonyericsson.net/#/c/1248891
+,Wrong action about forward call,http://review.sonyericsson.net/#/c/1208169
+13191,[DSDS] Use InCallUI account selection for potential mmi,http://review.sonyericsson.net/#/c/1231625
+9840,Delay ringtone LED and vibration,http://review.sonyericsson.net/#/c/1226924
+,DUT pop up wrong message when enable Airplane mode then make a MO call.,http://review.sonyericsson.net/#/c/1204050
+,GTS bindsToInCallServiceAndAddsCall case fail,http://review.sonyericsson.net/#/c/1186074
+12009,Fix for cannot reject incoming call from BT device,http://review.sonyericsson.net/#/c/1177403
+,"Delete ""show call duration""",http://review.sonyericsson.net/#/c/1164921
+9783,Fix for no badge icon in phone app for missed call,http://review.sonyericsson.net/#/c/1142233
+,Modify call crash issue,http://review.sonyericsson.net/#/c/1127700
+,"MUT displays ""Unable to switch calls""",http://review.sonyericsson.net/#/c/1120290
+,No vibrate prompt when receive a MT call.,http://review.sonyericsson.net/#/c/1118712
+9223,The data of Reject Call With Message is not retained,http://review.sonyericsson.net/#/c/1113497
+9337,'Unknown' displays under 'Missed call' in missed call notification.,http://review.sonyericsson.net/#/c/1110323
+11523,FP16210 DSDS Voice mail adaption.,http://review.sonyericsson.net/#/c/1085879
+,Service menu in telephony app part,http://review.sonyericsson.net/#/c/1123162
+,Change log.wtf to log.d to avoid crash,http://review.sonyericsson.net/#/c/1300265
+9194,Implement interface to gets a phone type,http://review.sonyericsson.net/#/c/1065625
+9194,Notify extra parameters to telecomm,http://review.sonyericsson.net/#/c/1065619
+,"Revert ""FIX for GSMA TS27""",http://review.sonyericsson.net/#/c/1276797
+,Dialed number is changed after call establishment,http://review.sonyericsson.net/#/c/1274637
+,Wrong sim settings are shown when Data roaming is off notification,http://review.sonyericsson.net/#/c/1274547
+,FIX for GSMA TS27,http://review.sonyericsson.net/#/c/1274534
+,Change to add STK_PERMISSION for stk related commands,http://review.sonyericsson.net/#/c/1283181
+5389,FP13416 Detect Single PDP networks and notify user,http://review.sonyericsson.net/#/c/1057699
+9007,Adding possibility to customize voicemail text,http://review.sonyericsson.net/#/c/1060807
+,Merge remote-tracking branch 'remotes/origin/odm/arima/android/l-chambal-cosmos-release' into c,http://review.sonyericsson.net/#/c/1063504
+8972,The selected word does not display from Voice Input candidate list.,http://review.sonyericsson.net/#/c/1060790
+9209,Normal UI(Emergency Dialer),http://review.sonyericsson.net/#/c/1060789
+8530,Change theme of Mobile Network Settings,http://review.sonyericsson.net/#/c/1060928
+8530,Add Somc features for MobileNetworkSettings,http://review.sonyericsson.net/#/c/1054085
+9227,Correct notification for rejected CF,http://review.sonyericsson.net/#/c/1056657
+8958,Ignore CF event on non-voice-capable devices,http://review.sonyericsson.net/#/c/1056685
+11805,FP5319 Support for customization of data roaming,http://review.sonyericsson.net/#/c/1053669
+8499,Somc Notification Adaption,http://review.sonyericsson.net/#/c/1054111
+9211,Add somc dimens,http://review.sonyericsson.net/#/c/1053937
+,Change SIM displaying name rule for Operator CSL,http://review.sonyericsson.net/#/c/1305309
+,Fix phone crash issue.,http://review.sonyericsson.net/#/c/1303988
+,Display empty string in CF setting for Entel Chile operator,http://review.sonyericsson.net/#/c/1300412
+,update data traffic notification when data sub change,http://review.sonyericsson.net/#/c/1291425
+,Append SubId when set preferred network type,http://review.sonyericsson.net/#/c/1279707
+,"Revert ""Refactoring FP18564: Prefer PLMN display instead of SPN in network list""",http://review.sonyericsson.net/#/c/1282160
+,Support multi ringtone in MTK platform,http://review.sonyericsson.net/#/c/1085755
+,Do nothing if user change network for not 3G card to GSM only,http://review.sonyericsson.net/#/c/1124709
+,Phone book is busy nowplease try later should not pop up,http://review.sonyericsson.net/#/c/1121713
+,"The ""Vibrate when ringing\u0026Increasing ringtone"" option display gray without SIM card inserted.",http://review.sonyericsson.net/#/c/1117983
+,"Wrong label is displayed in ""Mobile network settings"" menu",http://review.sonyericsson.net/#/c/1114848
+11521,FP16210 DSDS Notification adaption for L,http://review.sonyericsson.net/#/c/1078390
+,Remove code conflict,http://review.sonyericsson.net/#/c/1091951
+,DSDS: FP16210 DSDS Mobile Network Settings,http://review.sonyericsson.net/#/c/1088565
+,check pin2 retry times when pin status is open,http://review.sonyericsson.net/#/c/1294097
+,Modify phone crash when click call button on Settings screen,http://review.sonyericsson.net/#/c/1088191
+10018,Calls rejected with an IMEI_NOT_SUPPORTED network code,http://review.sonyericsson.net/#/c/1078409
+10212,FP14671 EU Internet APN for local breakout,http://review.sonyericsson.net/#/c/1078367
+8531,Add SomcNetworkPreference,http://review.sonyericsson.net/#/c/1074154
+8529,FP11711 Supplementary Request for Taiwan Emergency Call,http://review.sonyericsson.net/#/c/1074972
+8959,Emergency number with CLIR code can't be dialed when no SIM card.,http://review.sonyericsson.net/#/c/1067919
+8915,Should enable FDN after PIN2 unlocked successfully,http://review.sonyericsson.net/#/c/1079326
+9160,Update launcher SIP icon,http://review.sonyericsson.net/#/c/1079322
+11621,"NPE occurs if press Back key after switch ""Receive incoming calls""",http://review.sonyericsson.net/#/c/1079320
+9983,The notification that the data is disconnected by roaming disappears,http://review.sonyericsson.net/#/c/1071218
+9478,To create a new Alert Dialog for Mobile data traffic,http://review.sonyericsson.net/#/c/1076525
