@@ -1,0 +1,146 @@
+#!/bin/bash
+
+echo "---------------------------------------------------------------"
+echo "---------------------------------------------------------------"
+echo "----------------------Fastboot Start---------------------------"
+echo "---------------------------------------------------------------"
+
+# image default list table
+PARTITIONS=(
+"preloader"
+"lk" "lk2"
+"logo"
+"tee1" "tee2"
+"md1img"
+"md1dsp"
+"md1arm7"
+"md3img"
+"scp1" "scp2"
+"boot"
+"recovery"
+"cache"
+"system"
+"userdata"
+)
+
+PARTITION_IMAGES=(
+"preloader_s2_plus.bin"
+"lk-verified.bin"
+"lk-verified.bin"
+"logo-verified.bin"
+"trustzone-verified.bin"
+"trustzone-verified.bin"
+"md1rom-verified.img"
+"md1dsp-verified.img"
+"md1arm7-verified.img"
+"md3rom-verified.img"
+"tinysys-scp-verified.bin"
+"tinysys-scp-verified.bin"
+"boot.img"
+"recovery-verified.img"
+"cache.img"
+"system.img"
+"userdata.img"
+)
+
+varcount=$#
+
+if [ $varcount == 0 ] ; then
+echo "Please input image path name follow command"
+exit 1;
+fi
+
+varlist=$@
+
+function CHECK_IMAGE() {
+	echo "CHECK_IMAGE $1"
+	for ((i=0;i<${#PARTITION_IMAGES[@]};i++));
+	do
+		if [ "${PARTITION_IMAGES[i]}" == "$1" ]; then
+			return $i;
+		fi
+	done
+
+	#it seem this return value only support 0-255
+	return 255;
+}
+
+function ADBSTART() {
+	echo "---------------------------------------------------------------"
+	echo "adb reboot bootloader......"
+	sudo adb reboot bootloader
+	echo "sleep 10s second for waiting reboot into fastboot mode..."
+	sleep 10
+	echo "---------------------------------------------------------------"
+	echo "fastboot devices......"
+	sudo sudo fastboot devices
+	if [ $? -ne 0 ]; then
+		FASTBOOTDEVICES
+	else
+		echo "---------------------------------------------------------------"
+		echo "Fastbooting......"
+		echo "Please waiting......"
+		echo "---------------------------------------------------------------"
+
+		for ((i=0;i<$varcount;i++));
+		do
+			echo
+			echo "---------------------------------------------------------------"
+			echo 
+
+			filepathname="${varlist[$i]}"
+
+			imagename="${filepathname##*/}"
+
+			CHECK_IMAGE "$imagename";
+			index=$?
+			#sudo fastboot oem unlock-go
+                        #echo "fastboot oem unlock-go ..."
+			echo "image name index: $index , list count: ${#PARTITIONS[@]}"
+			if [ $index -le ${#PARTITIONS[@]} ]; then
+				echo "--->> fastboot flash ${PARTITIONS[$index]} "$filepathname""
+				sudo fastboot flash ${PARTITIONS[$index]} "$filepathname"
+				echo "---------------------------------------------------------------"
+				if [ $? -ne 0 ];then
+					FASTBOOTFAILED
+				fi
+			else 
+				echo "Not found corresponding image partion name..."
+				echo "---------------------------------------------------------------"
+			fi
+		done
+
+		echo
+		echo "---------------------------------------------------------------"
+		echo "---------------------------------------------------------------"
+		echo "fastboot reboot......"
+		sudo fastboot reboot
+		echo "---------------------------------------------------------------"
+		echo "----------------------Fastboot End-----------------------------"
+		echo "---------------------------------------------------------------"
+		exit
+	fi
+}
+
+function FASTBOOTDEVICES() {
+	echo "----------------------------------------------------------------------"
+	echo "Don not found device, please confirm plug your phone into your computer!"
+	echo "----------------------------------------------------------------------"
+	echo "please press ENTER to continue!"
+	read
+	exit
+}
+
+function FASTBOOTFAILED() {
+	echo "---------------------------------------------------------------"
+	echo "fastboot failed, please fastboot again!"
+	echo "---------------------------------------------------------------"
+	echo "please press ENTER to continue!"
+	read
+	exit
+}
+
+ADBSTART
+
+
+

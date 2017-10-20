@@ -1,0 +1,236 @@
+#!/bin/bash
+
+DEBUG=0
+
+#===========================================
+
+APKS=(
+"Dialer.apk"
+"Telecom.apk"
+"TeleService.apk"
+"telephony-common.jar"
+"Settings.apk"
+)
+
+# package system path in phone for apk list
+SYSTEMPATHS=(
+"system/priv-app/Dialer"
+"system/priv-app/Telecom"
+"system/priv-app/TeleService"
+"system/framework"
+"system/priv-app/Settings"
+)
+
+# process name list for apk list
+PROCESS_NAMES=(
+"com.andorid.dialer"
+""
+"com.android.phone"
+""
+"com.android.settings"
+)
+
+#######################################################
+function isaaptSupport() {
+    if [ -z "$(command -v aapt)" ]; then
+        echo "warning: aapt not available, may not be able to find out apk's package name."
+        return 0;
+    fi
+
+    return 1;
+}
+
+
+getTargetPath() {
+	#echo "getTargetPath for $1"
+	for ((i=0;i<${#APKS[@]};i++));
+	do
+		if [ "${APKS[i]}" == "$1" ]; then
+			return $i;
+		fi
+	done
+
+	#it seem this return value only support 0-255
+	return 255;
+}
+
+killProcess() {
+    processName=$1
+
+    if [ -n "$processName" ]; then
+        echo "Killing process $processname..."
+        process_info=$(adb shell ps |grep $processName)
+   
+        if [ -n "$process_info" ]; then
+            echo -e "Process info:"
+            echo -e "$process_info"
+            echo -e "$process_info">.p_tmp
+            echo ""
+
+            pid=$(cat .p_tmp |awk '{print $2}')
+
+            if [ -n "$pid" ]; then
+                echo "adb shell kill $pid"
+                adb shell kill $pid
+                
+                echo "Process $processName is killed!"
+            else
+                echo "Process $processName with Pid:$pid not found!"
+            fi
+
+            rm -rf .p_tmp
+        else
+            echo -e "Process for [$processName] not found, exit!"
+        fi
+        echo ""
+    fi
+}
+
+toReboot=0
+notKillProcess=0
+
+handleOptions () {
+  while getopts ":ri" optname
+    do
+      case "$optname" in
+        "r")
+          toReboot=1
+          ;;
+        "i")
+          notKillProcess=1
+          ;;
+        "?")
+          echo "Unknown option $OPTARG"
+          exit 0
+          ;;
+      esac
+    done
+  return $OPTIND
+}
+
+showArgs () {
+  for p in "$@"
+    do
+      echo "[$p]"
+    done
+}
+
+log () {
+    if [ $DEBUG == 1 ] ; then
+        echo "$1"
+    fi
+}
+
+###############################
+varcount=$#
+
+if [ $varcount == 0 ] ; then
+    echo "This command format like following:"
+    echo "    adbpush [options] [apk path name] [apk system path]"
+    echo "        options:"
+    echo "            -r: reboot phone after push"
+    echo "            -i: not killing process for pushed apk if it's process name in list."
+    echo "                  com.andorid.dialer"
+    echo "                  com.android.phone"
+    echo "                  com.android.settings"
+    exit 1;
+fi
+
+adb root
+sleep 2
+adb remount
+
+echo "--------------------------------------------------------"
+echo ""
+
+declare -a args=("${@}")
+handleOptions "$@"
+argstart="$?"
+
+argCount=`expr $varcount - $argstart + 1`
+
+log "$argstart"
+log "$argCount"
+
+if [ $argCount == 1 ] ; then
+    apkIndex=`expr $argstart - 1`
+    apkpathname="${args[apkIndex]}"
+    apkname="${apkpathname##*/}"
+
+    apksystempath="${apkpathname##*system/}"
+    # adjust system patch name
+    apksystempath="system/$apksystempath"
+else
+    echo "args:${args[@]}"
+    apkIndex=`expr $argstart - 1`
+    systemPathIndex=`expr $apkIndex + 1`
+
+    apkpathname="${args[apkIndex]}"
+    apkname="${apkpathname##*/}"
+
+    apksystempath="${args[systemPathIndex]}"
+
+    if [ -z "$apksystempath" ]; then
+        apksystempath="${apkpathname##*system/}"
+        # adjust system patch name
+        apksystempath="system/$apksystempath"
+    fi
+fi
+
+getTargetPath "$apkname";
+index=$?
+
+log "system path: $apksystempath"
+
+if [ -z "$apksystempath" ]; then
+    log "apk name index: $index , list count: ${#SYSTEMPATHS[@]}"
+    if [ $index -le ${#SYSTEMPATHS[@]} ]; then
+        adb shell ls ${SYSTEMPATHS[$index]}
+	apksystempath=${SYSTEMPATHS[$index]}
+    else
+        echo "adb system path not found..."
+        exit 0
+    fi
+fi
+
+log "apk path name: $apkpathname"
+log "system path: $apksystempath"
+
+if [ -n "$apksystempath" ]; then
+    echo "adb push $apkpathname $apksystempath"
+    adb push "$apkpathname" "$apksystempath"
+
+    if [ $? -ne 0 ];then
+	echo "push failed!"
+        exit 0
+    fi
+fi
+
+echo ""
+echo "------------------PUSH END------------------------------"
+echo ""
+
+if [ $notKillProcess == 0 ]; then
+    # if process name is in list, kill it!
+    if [ $index -le ${#PROCESS_NAMES[@]} ]; then
+        processname=${PROCESS_NAMES[$index]}
+    else
+        echo "$apkname is not one apk or process name not found!"
+    fi
+
+    if [ -n "$processname" ]; then
+        killProcess "$processname";
+    fi
+fi
+
+#echo "to reboot: $toReboot"
+
+if [ $toReboot == 1 ]; then
+    echo "adb shell reboot"
+    adb shell reboot
+fi
+
+exit 0
+
+
+

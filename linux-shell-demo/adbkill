@@ -1,0 +1,46 @@
+#!/bin/bash
+
+function killProcess() {
+    processName=$1
+
+    if [ -n "$processName" ]; then
+        process_info=$(adb shell ps |grep $processName)
+
+        if [ -n "$process_info" ]; then
+            echo -e "Process_Info:"
+            echo -e "$process_info"
+            echo -e "$process_info">.p_tmp
+
+            pid=$(cat .p_tmp |awk '{print $2}')
+
+            if [ -n "$pid" ]; then
+                adb shell kill $pid
+
+                echo ""
+                echo "Process $processName is killed"
+            else
+                echo "Process $processName with Pid:$pid not found!"
+            fi
+    
+            rm -rf .p_tmp
+        else
+            echo -e "Process for [$processName] not found, exit!"
+        fi
+        echo ""
+    fi
+}
+
+varcount=$#
+
+if [ $varcount == 1 ] ; then
+    process="$1"
+
+    echo "$process"|[ -n "`sed -n '/^[0-9][0-9]*$/p'`" ] && isNumber="1"
+
+    if [ "$isNumber" = "1" ] ; then
+        adb shell kill $process
+    else
+        killProcess "$process";
+    fi
+fi
+

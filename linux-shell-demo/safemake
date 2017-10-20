@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#echo "safemake to clean jack server first..."
+# out/host/linux-x86/bin/jack-admin kill-server; out/host/linux-x86/bin/jack-admin start-server;
+export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx6144m" ; make $*
+
+out/host/linux-x86/bin/jack-admin kill-server; out/host/linux-x86/bin/jack-admin start-server;
+echo "memory has been clean up..."
